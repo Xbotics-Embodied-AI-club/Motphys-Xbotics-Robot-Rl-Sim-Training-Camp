@@ -103,11 +103,11 @@
 
 * 如果你发现教程或资料中有任何问题，可以提 **Issue** 进行反馈，保姆团队的同学会跟进处理。
 * 如果你想优化教程内容、补充高质量笔记，可以提交 **Pull Request**。
-* 如果你对 Datawhale 及开源共建很感兴趣并想要发起一个新的项目，请参考 [Datawhale 开源项目指南](https://github.com/datawhalechina/DOP)。
+* 如果你对 Xbotics具身智能实验室及开源共建很感兴趣，欢迎参与本项目的共建和优化。
 
 ## 关注我们
 
-扫描下方二维码关注公众号：Datawhale
+扫描下方二维码关注 Xbotics具身智能实验室
 
 ## 📄 LICENSE
 
