@@ -8,11 +8,11 @@ hero:
   tagline: 从传统机器人学到前沿具身智能的完整闭环，涵盖 IsaacLab 与 MotrixLab 实战
   actions:
     - theme: brand
-      text: 开始第一个月学习
-      link: /month1/
+      text: 进入第一期训练营
+      link: /第一期/
     - theme: alt
-      text: 开始第二个月实操
-      link: /month2/
+      text: 查看结营作业
+      link: /结营作业/
 
 features:
   - title: 理论基础筑基

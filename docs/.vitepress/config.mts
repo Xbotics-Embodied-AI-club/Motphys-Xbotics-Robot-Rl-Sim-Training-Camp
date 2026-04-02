@@ -15,33 +15,61 @@ export default defineConfig({
     // 网站顶部的导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '第一个月：理论基础', link: '/month1/' },
-      { text: '第二个月：仿真实操', link: '/month2/' }
+      {
+        text: '第一期训练营',
+        items: [
+          { text: '📋 第一期总览', link: '/第一期/' },
+          { text: '第一个月：理论基础', link: '/第一期/month1/' },
+          { text: '第二个月：仿真实操', link: '/第一期/month2/' }
+        ]
+      },
+      { text: '结营作业', link: '/结营作业/' }
     ],
 
     // 网站左侧的侧边栏目录
     sidebar: [
       {
-        text: '第一个月：理论基础',
-        collapsed: false, // false 表示默认展开
+        text: '第一期训练营',
+        collapsed: false,
         items: [
-          { text: '📍 学习大纲与目标', link: '/month1/' },
-          // 下面这些是预留的空位，等你以后建了具体的 md 文件，链接就生效了
-          { text: '第一周：坐标系与位姿变换', link: '/month1/week1' },
-          { text: '第二周：轨迹规划', link: '/month1/week2' },
-          { text: '第三周：机器人运动学', link: '/month1/week3' },
-          { text: '第四周：深度强化学习', link: '/month1/week4' }
+          { text: '📋 第一期总览', link: '/第一期/' },
+          {
+            text: '第一个月：理论基础',
+            collapsed: false,
+            items: [
+              { text: '📍 学习大纲与目标', link: '/第一期/month1/' },
+              { text: '第一周：坐标系与位姿变换', link: '/第一期/month1/week1' },
+              { text: '第二周：轨迹规划', link: '/第一期/month1/week2' },
+              { text: '第三周：机器人运动学', link: '/第一期/month1/week3' },
+              { text: '第四周：深度强化学习', link: '/第一期/month1/week4' }
+            ]
+          },
+          {
+            text: '第二个月：仿真实操',
+            collapsed: false,
+            items: [
+              { text: '📍 学习大纲与目标', link: '/第一期/month2/' },
+              { text: '第一周：熟悉平台', link: '/第一期/month2/week1' },
+              { text: '第二周：深入 Navigation 任务', link: '/第一期/month2/week2' },
+              { text: '第三周：开始迁移', link: '/第一期/month2/week3' },
+              { text: '第四周：完整迁移 & 复现结果', link: '/第一期/month2/week4' }
+            ]
+          }
         ]
       },
       {
-        text: '第二个月：仿真实操',
+        text: '结营作业',
         collapsed: false,
         items: [
-          { text: '📍 学习大纲与目标', link: '/month2/' },
-          { text: '第一周：熟悉平台', link: '/month2/week1' },
-          { text: '第二周：深入 Navigation 任务', link: '/month2/week2' },
-          { text: '第三周：开始迁移', link: '/month2/week3' },
-          { text: '第四周：完整迁移 & 复现结果', link: '/month2/week4' }
+          { text: '📦 结营作业总览', link: '/结营作业/' },
+          {
+            text: '第一期',
+            collapsed: false,
+            items: [
+              { text: '📋 第一期作业汇总', link: '/结营作业/第一期/' },
+              { text: '张恒 — Go2 平地迁移', link: '/结营作业/第一期/张恒/' }
+            ]
+          }
         ]
       }
     ],

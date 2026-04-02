@@ -1,0 +1,75 @@
+# 周报 — Unitree Go2 平地行走任务迁移
+
+## 任务概述
+
+将 IsaacLab 中 Unitree Go2 平地行走任务（`Isaac-Velocity-Flat-Unitree-Go2-v0`）迁移至 Motrix 框架，包括环境配置参数、奖励函数设计以及动作空间定义。
+
+---
+
+## 迁移对应关系
+
+| IsaacLab | Motrix |
+|---|---|
+| `flat_env_cfg.py` + `rough_env_cfg.py` | `_cfg.py` |
+
+
+---
+
+## 参数迁移情况
+
+### 直接对应迁移的参数
+
+- `action_scale`：`0.25`
+- `tracking_lin_vel` 权重：`1.5`
+- `tracking_ang_vel` 权重：`0.75`
+- `orientation` 惩罚权重：`-2.5`
+- `feet_air_time` 权重：`0.25`
+- `dof_acc` 惩罚权重：`-2.5e-7`
+
+### 有意调整的参数
+
+- **`torques` 惩罚**：IsaacLab 中为 `-0.0002`，Motrix 中设为 `0`。原因是两个框架对力矩的计算方式不同，且 flat 任务中关闭该项对训练结果无显著影响，经实践验证。
+
+- **速度指令范围**：IsaacLab 中 x 方向最大 `2.0 m/s`，角速度最大 `π rad/s`；迁移版统一收窄为三轴对称的 `[-1.0, 1.0]`，训练分布更保守均匀。
+
+---
+
+## 关键问题发现与修正过程
+
+### 1. `action_rate` 参数
+
+在对照两版 Motrix 代码时发现，`action_rate` 惩罚权重从原版的 `-0.001` 变为了 `-0.01`，放大了 10 倍。追溯后确认是迁移过程中借助 AI 辅助调参时引入的无意改动，并非来自 IsaacLab 原始配置。经实际训练验证，该改动对结果无负面影响，予以保留。
+
+### 2. action space 定义错误（已修正）
+
+这是迁移中唯一的实质性错误。
+
+**问题根源**：原版 Motrix 的设计是以 `actuator_ctrl_limits`（实际关节角度物理限位）作为动作空间边界，配合较小的 `action_scale=0.05`，两者是配套设计。迁移时只将 `action_scale` 改为 `0.25` 对齐 IsaacLab，但未同步修改动作空间定义。
+
+**实际影响**：打印 `actuator_ctrl_limits` 后发现其范围并非 `[-1, 1]`，例如 calf 关节的范围为 `[-2.62, -0.85]`，全为负值。这导致：
+- 与 IsaacLab 的 `action ∈ [-1,1]` × `0.25` 语义不等价
+- calf 关节动作空间异常，小腿抬起空间极为受限
+
+训练仍能成功，是因为 RL 策略在实践中自适应地输出了较小的值，绕开了该问题，属于"歪打正着"。
+
+**修正方案**：将 `_init_action_space` 中的动作空间边界改为固定的 `[-1, 1]`（详见附录），使其与 IsaacLab 完全对齐。
+
+```python
+# 修正前：以物理限位作为边界
+gym.spaces.Box(actuator_ctrl_limits[0], actuator_ctrl_limits[1], ...)
+
+# 修正后：固定归一化范围
+gym.spaces.Box(-np.ones(n), np.ones(n), ...)
+```
+
+---
+
+## 训练结果
+
+修正后训练可以正常达成平地行走任务，机器人能够跟踪线速度和角速度指令，步态稳定。
+
+---
+
+## 附录
+
+（代码详情见附录）
