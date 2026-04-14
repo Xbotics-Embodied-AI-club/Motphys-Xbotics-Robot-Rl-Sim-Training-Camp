@@ -55,7 +55,7 @@
     <div style="color:var(--vp-c-text-2);line-height:1.7;">从坐标系变换、轨迹规划，到深度强化学习与仿真任务迁移。</div>
   </div>
   <div style="padding:1rem 1.1rem;border:1px solid var(--vp-c-divider);border-radius:16px;background:var(--vp-c-bg-soft);">
-    <div style="font-weight:700;margin-bottom:.5rem;">双平台实战</div>
+    <div style="font-weight:700;margin-bottom:.5rem;">平台实战</div>
     <div style="color:var(--vp-c-text-2);line-height:1.7;">聚焦 MotrixLab，覆盖环境配置、任务复现与工程迁移。</div>
   </div>
   <div style="padding:1rem 1.1rem;border:1px solid var(--vp-c-divider);border-radius:16px;background:var(--vp-c-bg-soft);">
@@ -68,41 +68,33 @@
   </div>
 </div>
 
-## 主页分栏导航
+## 主页导航
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin:1rem 0 2rem;">
+  <div style="padding:1rem 1.1rem;border:1px solid var(--vp-c-divider);border-radius:16px;background:var(--vp-c-bg-soft);">
+    <h3 style="margin:.1rem 0 .75rem;">📖 快速开始</h3>
+    <ol style="margin:0;padding-left:1.2rem;line-height:1.8;color:var(--vp-c-text-2);">
+      <li>先看官方平台教程：<a href="https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/tutorial/basic_frame.html">MotrixLab 基础框架教程</a></li>
+      <li>再进入 GitHub 仓库查看源码与文档结构：<a href="https://github.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp">项目仓库</a></li>
+      <li>从第一期训练营开始阅读：<a href="./docs/第一期/index.md">第一期总览</a></li>
+      <li>最后查看结营作业：<a href="./docs/结营作业/index.md">结营作业总览</a></li>
+    </ol>
+  </div>
 
-### 📖 快速开始
-
-1. 先看官方平台教程，了解基础框架：
-   - [MotrixLab 基础框架教程](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/tutorial/basic_frame.html)
-2. 再进入 GitHub 仓库查看源码与文档结构：
-   - [项目仓库](https://github.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp)
-3. 从第一期训练营开始阅读：
-   - [第一期总览](./docs/第一期/index.md)
-4. 最后查看结营作业：
-   - [结营作业总览](./docs/结营作业/index.md)
-
-    </td>
-    <td valign="top" width="50%">
-
-### 🧭 学习路径
-
-| 阶段 | 核心目标 | 包含内容简介 | 详细指引 |
-| :--- | :--- | :--- | :---: |
-| **第一个月：理论基础** | 构建机器人学与强化学习底层认知 | 坐标系与位姿变换、轨迹规划、机器人运动学 (FK/IK)、深度强化学习 (PPO/A3C) | [👉 查看详情](./docs/第一期/month1/index.md) |
-| **第二个月：仿真实操** | 物理引擎实操与任务代码迁移 | 熟悉 MotrixLab / MotrixLab、拆解 `Navigation-Flat-Anymal-C-v0` 任务、资产下载与配置类迁移 | [👉 查看详情](./docs/第一期/month2/index.md) |
-
-    </td>
-  </tr>
-</table>
+  <div style="padding:1rem 1.1rem;border:1px solid var(--vp-c-divider);border-radius:16px;background:var(--vp-c-bg-soft);">
+    <h3 style="margin:.1rem 0 .75rem;">🧭 学习路径</h3>
+    <ul style="margin:0;padding-left:1.2rem;line-height:1.8;color:var(--vp-c-text-2);">
+      <li><a href="./docs/第一期/month1/index.md">第一个月：理论基础</a></li>
+      <li><a href="./docs/第一期/month2/index.md">第二个月：仿真实操</a></li>
+      <li><a href="./docs/结营作业/第一期/张恒/index.md">第一期结营作业</a></li>
+    </ul>
+  </div>
+</div>
 
 ## 适合谁
 
 - 想系统学习机器人学与强化学习的同学
-- 想接触 IsaacLab / MotrixLab 仿真的学习者
+- 想接触 MotrixLab 仿真的学习者
 - 想了解四足机器人导航任务迁移的工程实践者
 - 想参与社区共建、一起完善训练营资料的贡献者
 
