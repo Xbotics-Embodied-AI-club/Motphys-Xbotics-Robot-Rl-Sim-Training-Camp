@@ -1,34 +1,86 @@
 <div align="center">
+  <img src="./社区Logo.jpg" alt="Xbotics 社区 Logo" width="160" />
 
-# 谋先飞机器人仿真实训
+  <h1>谋先飞机器人仿真实训</h1>
 
-面向机器人学、强化学习与具身智能爱好者的开源训练营，帮助你从理论基础走到 IsaacLab / MotrixLab 的真实仿真实战。
+  <p>面向机器人学、强化学习与具身智能爱好者的开源训练营，帮助你从理论基础走到 IsaacLab / MotrixLab 的真实仿真实战。</p>
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Open%20Source-blue?logo=github)](https://github.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp)
-[![Docs](https://img.shields.io/badge/Docs-Read%20Now-orange)](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/tutorial/basic_frame.html)
-[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  <p>
+    <a href="https://github.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp"><img src="https://img.shields.io/badge/GitHub-Open%20Source-blue?logo=github" alt="GitHub Repo" /></a>
+    <a href="https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/tutorial/basic_frame.html"><img src="https://img.shields.io/badge/Docs-Read%20Now-orange" alt="Docs" /></a>
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey" alt="License" /></a>
+  </p>
 
-[快速开始](#快速开始) · [学习路线](#学习路线) · [结营作业](#结营作业归档) · [社区共建](#社区共建)
-
+  <p>
+    <a href="#快速开始">快速开始</a> ·
+    <a href="#学习路线">学习路线</a> ·
+    <a href="#结营作业归档">结营作业</a> ·
+    <a href="#社区共建">社区共建</a>
+  </p>
 </div>
 
 ---
 
+## 封面横幅
+
+<p align="center">
+  <img src="./docs/public/xbotics-banner.svg" alt="Xbotics Training Camp Banner" width="100%" />
+</p>
+
 > [!NOTE]
 > 这是训练营的文档与宣传仓库，适合第一次了解项目的同学快速查看课程路线、结营作业与官方文档入口。
 
+## 项目数字指标
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <strong>2 个月</strong><br />
+      系统训练周期
+    </td>
+    <td align="center" width="25%">
+      <strong>2 大阶段</strong><br />
+      理论基础 / 仿真实操
+    </td>
+    <td align="center" width="25%">
+      <strong>2 个平台</strong><br />
+      IsaacLab / MotrixLab
+    </td>
+    <td align="center" width="25%">
+      <strong>1 条主线</strong><br />
+      四足机器人任务迁移
+    </td>
+  </tr>
+</table>
+
 ## 项目亮点
 
-- **理论 + 实操闭环**：从坐标系变换、轨迹规划，到深度强化学习与仿真任务迁移。
-- **双平台实战**：聚焦 IsaacLab 与 MotrixLab，覆盖环境配置、任务复现与工程迁移。
-- **面向社区共建**：欢迎通过 Issue / PR 持续完善文档、案例与教学内容。
-- **真实任务导向**：以四足机器人导航与行走任务为主线，强调可落地、可复现。
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin:1rem 0 2rem;">
+  <div style="padding:1rem 1.1rem;border:1px solid var(--vp-c-divider);border-radius:16px;background:var(--vp-c-bg-soft);">
+    <div style="font-weight:700;margin-bottom:.5rem;">理论 + 实操闭环</div>
+    <div style="color:var(--vp-c-text-2);line-height:1.7;">从坐标系变换、轨迹规划，到深度强化学习与仿真任务迁移。</div>
+  </div>
+  <div style="padding:1rem 1.1rem;border:1px solid var(--vp-c-divider);border-radius:16px;background:var(--vp-c-bg-soft);">
+    <div style="font-weight:700;margin-bottom:.5rem;">双平台实战</div>
+    <div style="color:var(--vp-c-text-2);line-height:1.7;">聚焦 IsaacLab 与 MotrixLab，覆盖环境配置、任务复现与工程迁移。</div>
+  </div>
+  <div style="padding:1rem 1.1rem;border:1px solid var(--vp-c-divider);border-radius:16px;background:var(--vp-c-bg-soft);">
+    <div style="font-weight:700;margin-bottom:.5rem;">面向社区共建</div>
+    <div style="color:var(--vp-c-text-2);line-height:1.7;">欢迎通过 Issue / PR 持续完善文档、案例与教学内容。</div>
+  </div>
+  <div style="padding:1rem 1.1rem;border:1px solid var(--vp-c-divider);border-radius:16px;background:var(--vp-c-bg-soft);">
+    <div style="font-weight:700;margin-bottom:.5rem;">真实任务导向</div>
+    <div style="color:var(--vp-c-text-2);line-height:1.7;">以四足机器人导航与行走任务为主线，强调可落地、可复现。</div>
+  </div>
+</div>
 
-## 项目简介
+## 主页分栏导航
 
-本仓库是“谋先飞线上实习”机器人仿真实训的官方文档站点与社区共建入口。项目围绕**机器人基础理论 + 物理仿真实操 + 任务迁移实践**三条主线展开，帮助学习者建立从传统机器人学到前沿具身智能的完整认知路径。
+<table>
+  <tr>
+    <td valign="top" width="50%">
 
-## 快速开始
+### 📖 快速开始
 
 1. 先看官方平台教程，了解基础框架：
    - [MotrixLab 基础框架教程](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/tutorial/basic_frame.html)
@@ -39,14 +91,19 @@
 4. 最后查看结营作业：
    - [结营作业总览](./docs/结营作业/index.md)
 
-## 学习路线
+    </td>
+    <td valign="top" width="50%">
 
-### 第一期训练营
+### 🧭 学习路径
 
 | 阶段 | 核心目标 | 包含内容简介 | 详细指引 |
 | :--- | :--- | :--- | :---: |
 | **第一个月：理论基础** | 构建机器人学与强化学习底层认知 | 坐标系与位姿变换、轨迹规划、机器人运动学 (FK/IK)、深度强化学习 (PPO/A3C) | [👉 查看详情](./docs/第一期/month1/index.md) |
 | **第二个月：仿真实操** | 物理引擎实操与任务代码迁移 | 熟悉 IsaacLab / MotrixLab、拆解 `Navigation-Flat-Anymal-C-v0` 任务、资产下载与配置类迁移 | [👉 查看详情](./docs/第一期/month2/index.md) |
+
+    </td>
+  </tr>
+</table>
 
 ## 适合谁
 
