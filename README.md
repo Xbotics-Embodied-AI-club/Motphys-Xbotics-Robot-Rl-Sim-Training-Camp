@@ -21,12 +21,6 @@
 
 ---
 
-## 封面横幅
-
-<p align="center">
-  <img src="./docs/public/xbotics-banner.svg" alt="Xbotics Training Camp Banner" width="100%" />
-</p>
-
 > [!NOTE]
 > 这是训练营的文档与宣传仓库，适合第一次了解项目的同学快速查看课程路线、结营作业与官方文档入口。
 
