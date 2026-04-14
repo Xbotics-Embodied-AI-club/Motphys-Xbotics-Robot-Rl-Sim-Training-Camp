@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="./社区Logo.jpg" alt="Xbotics 社区 Logo" width="160" />
+  <img src="./%E7%A4%BE%E5%8C%BALogo.jpg" alt="Xbotics 社区 Logo" width="160" />
 
   <h1>谋先飞机器人仿真实训</h1>
 
-  <p>面向机器人学、强化学习与具身智能爱好者的开源训练营，帮助你从理论基础走到 IsaacLab / MotrixLab 的真实仿真实战。</p>
+  <p>面向机器人学、强化学习与具身智能爱好者的开源训练营，帮助你从理论基础走到 MotrixLab 的真实仿真实战。</p>
 
   <p>
     <a href="https://github.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp"><img src="https://img.shields.io/badge/GitHub-Open%20Source-blue?logo=github" alt="GitHub Repo" /></a>
@@ -43,8 +43,8 @@
       理论基础 / 仿真实操
     </td>
     <td align="center" width="25%">
-      <strong>2 个平台</strong><br />
-      IsaacLab / MotrixLab
+      <strong>1 个平台</strong><br />
+      MotrixLab
     </td>
     <td align="center" width="25%">
       <strong>1 条主线</strong><br />
@@ -62,7 +62,7 @@
   </div>
   <div style="padding:1rem 1.1rem;border:1px solid var(--vp-c-divider);border-radius:16px;background:var(--vp-c-bg-soft);">
     <div style="font-weight:700;margin-bottom:.5rem;">双平台实战</div>
-    <div style="color:var(--vp-c-text-2);line-height:1.7;">聚焦 IsaacLab 与 MotrixLab，覆盖环境配置、任务复现与工程迁移。</div>
+    <div style="color:var(--vp-c-text-2);line-height:1.7;">聚焦 MotrixLab，覆盖环境配置、任务复现与工程迁移。</div>
   </div>
   <div style="padding:1rem 1.1rem;border:1px solid var(--vp-c-divider);border-radius:16px;background:var(--vp-c-bg-soft);">
     <div style="font-weight:700;margin-bottom:.5rem;">面向社区共建</div>
@@ -99,7 +99,7 @@
 | 阶段 | 核心目标 | 包含内容简介 | 详细指引 |
 | :--- | :--- | :--- | :---: |
 | **第一个月：理论基础** | 构建机器人学与强化学习底层认知 | 坐标系与位姿变换、轨迹规划、机器人运动学 (FK/IK)、深度强化学习 (PPO/A3C) | [👉 查看详情](./docs/第一期/month1/index.md) |
-| **第二个月：仿真实操** | 物理引擎实操与任务代码迁移 | 熟悉 IsaacLab / MotrixLab、拆解 `Navigation-Flat-Anymal-C-v0` 任务、资产下载与配置类迁移 | [👉 查看详情](./docs/第一期/month2/index.md) |
+| **第二个月：仿真实操** | 物理引擎实操与任务代码迁移 | 熟悉 MotrixLab / MotrixLab、拆解 `Navigation-Flat-Anymal-C-v0` 任务、资产下载与配置类迁移 | [👉 查看详情](./docs/第一期/month2/index.md) |
 
     </td>
   </tr>

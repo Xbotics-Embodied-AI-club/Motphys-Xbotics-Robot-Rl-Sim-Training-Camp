@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "谋先飞机器人实训"
   text: "机器人理论与仿真实操训练营"
-  tagline: 从传统机器人学到前沿具身智能的完整闭环，涵盖 IsaacLab 与 MotrixLab 实战。
+  tagline: 从传统机器人学到前沿具身智能的完整闭环，涵盖 MotrixLab 实战。
   image:
     src: /xbotics-banner.svg
     alt: Xbotics logo style banner
@@ -21,11 +21,10 @@ features:
     details: 训练营资料、案例与作业持续迭代，欢迎社区成员一起补充、优化与共建。
   - title: 理论 + 实操
     details: 从坐标系变换、轨迹规划，到深度强化学习与仿真任务迁移，一步步打通完整链路。
-  - title: 双平台实战
-    details: 聚焦 IsaacLab 与 MotrixLab，围绕真实工程中的任务配置、迁移与复现展开。
+  - title: 平台实战
+    details: 聚焦 MotrixLab，围绕真实工程中的任务配置、迁移与复现展开。
   - title: 结营可落地
     details: 以四足机器人导航任务为主线，完成从学习到实践的闭环训练。
-
 ---
 
 ## 推荐入口
