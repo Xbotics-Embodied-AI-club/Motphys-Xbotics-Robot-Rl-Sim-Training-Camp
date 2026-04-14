@@ -13,7 +13,10 @@
 
 ## 📖 在线阅读
 
-📚 **官方文档站点（推荐）**：[https://Xbotics-Embodied-AI-club.github.io/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp/](https://Xbotics-Embodied-AI-club.github.io/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp/)
+📚 **官方文档站点（推荐）**：
+
+- [GitHub 仓库](https://github.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp)
+- [MotrixLab 基础框架教程](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/tutorial/basic_frame.html)
 
 ## 🗂️ 学习路线大纲
 
