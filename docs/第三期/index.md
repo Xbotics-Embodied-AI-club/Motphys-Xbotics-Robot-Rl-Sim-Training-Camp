@@ -1,0 +1,21 @@
+# 学习路径总览
+
+> [!TIP]
+> 🎯 **路径总览**：当前训练营采用阶段式组织，先完成机器人学与强化学习基础，再进入 MotrixLab 平台实战，最后沉淀项目实践成果。
+
+## 📅 学习路线
+
+| 阶段 | 核心目标 | 详细指引 |
+| :--- | :--- | :---: |
+| **阶段一：理论基础** | 坐标系变换、轨迹规划、FK/IK、深度强化学习 (PPO/A3C) | [👉 查看详情](/第三期/month1/) |
+| **阶段二：平台实战** | 熟悉 MotrixLab、完成任务理解、配置与训练实操 | [👉 查看详情](/第三期/month2/) |
+| **项目实践** | 当前暂无归档成果，后续补充 | 建设中 |
+
+## 📖 在线文档入口
+
+- 阶段一在线文档：[MotrixLab 线上实习第一月](https://tcnmf6tdu5z9.feishu.cn/wiki/AGfRws912i0N5EkshfxcL5sNnZc?from=from_copylink)
+- 阶段二在线文档：[MotrixLab 线上实习第二月](https://tcnmf6tdu5z9.feishu.cn/wiki/BlyewaSVmiZRThkHBVocspzCnAf?from=from_copylink)
+
+## 📝 项目实践
+
+当前阶段的项目实践成果正在整理中，后续将在本期目录下补充归档。

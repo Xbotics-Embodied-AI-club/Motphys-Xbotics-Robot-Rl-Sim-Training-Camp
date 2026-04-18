@@ -16,60 +16,64 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '第一期训练营',
+        text: '学习路径',
         items: [
-          { text: '📋 第一期总览', link: '/第一期/' },
-          { text: '第一个月：理论基础', link: '/第一期/month1/' },
-          { text: '第二个月：仿真实操', link: '/第一期/month2/' }
+          { text: '第一期', link: '/第一期/' },
+          { text: '第二期', link: '/第二期/' },
+          { text: '第三期', link: '/第三期/' }
         ]
       },
-      { text: '结营作业', link: '/结营作业/' }
+      {
+        text: '项目实践',
+        items: [
+          { text: '第一期项目实践', link: '/第一期/结营作业/' },
+          { text: '张恒 — Go2 平地实践', link: '/第一期/结营作业/张恒/' }
+        ]
+      }
     ],
 
     // 网站左侧的侧边栏目录
     sidebar: [
       {
-        text: '第一期训练营',
+        text: '学习路径',
         collapsed: false,
         items: [
-          { text: '📋 第一期总览', link: '/第一期/' },
           {
-            text: '第一个月：理论基础',
+            text: '第一期',
             collapsed: false,
             items: [
-              { text: '📍 学习大纲与目标', link: '/第一期/month1/' },
-              { text: '第一周：坐标系与位姿变换', link: '/第一期/month1/week1' },
-              { text: '第二周：轨迹规划', link: '/第一期/month1/week2' },
-              { text: '第三周：机器人运动学', link: '/第一期/month1/week3' },
-              { text: '第四周：深度强化学习', link: '/第一期/month1/week4' }
+              { text: '📋 路径总览', link: '/第一期/' },
+              { text: '阶段一：理论基础', link: '/第一期/month1/' },
+              { text: '阶段二：平台实战', link: '/第一期/month2/' },
+              { text: '项目实践', link: '/第一期/结营作业/' }
             ]
           },
           {
-            text: '第二个月：仿真实操',
+            text: '第二期',
             collapsed: false,
             items: [
-              { text: '📍 学习大纲与目标', link: '/第一期/month2/' },
-              { text: '第一周：熟悉平台', link: '/第一期/month2/week1' },
-              { text: '第二周：深入 Navigation 任务', link: '/第一期/month2/week2' },
-              { text: '第三周：开始迁移', link: '/第一期/month2/week3' },
-              { text: '第四周：完整迁移 & 复现结果', link: '/第一期/month2/week4' }
+              { text: '📋 路径总览', link: '/第二期/' },
+              { text: '阶段一：理论基础', link: '/第二期/month1/' },
+              { text: '阶段二：平台实战', link: '/第二期/month2/' }
+            ]
+          },
+          {
+            text: '第三期',
+            collapsed: false,
+            items: [
+              { text: '📋 路径总览', link: '/第三期/' },
+              { text: '阶段一：理论基础', link: '/第三期/month1/' },
+              { text: '阶段二：平台实战', link: '/第三期/month2/' }
             ]
           }
         ]
       },
       {
-        text: '结营作业',
+        text: '项目实践',
         collapsed: false,
         items: [
-          { text: '📦 结营作业总览', link: '/结营作业/' },
-          {
-            text: '第一期',
-            collapsed: false,
-            items: [
-              { text: '📋 第一期作业汇总', link: '/结营作业/第一期/' },
-              { text: '张恒 — Go2 平地迁移', link: '/结营作业/第一期/张恒/' }
-            ]
-          }
+          { text: '📦 第一期项目实践', link: '/第一期/结营作业/' },
+          { text: '张恒 — Go2 平地实践', link: '/第一期/结营作业/张恒/' }
         ]
       }
     ],

@@ -3,18 +3,18 @@
 layout: home
 hero:
   name: "谋先飞机器人实训"
-  text: "机器人理论与仿真实操训练营"
+  text: "阶段式机器人理论与仿真实训"
   tagline: 从传统机器人学到前沿具身智能的完整闭环，涵盖 MotrixLab 实战。
   image:
     src: /xbotics-banner.svg
     alt: Xbotics logo style banner
   actions:
     - theme: brand
-      text: 立即开始
+      text: 查看第一期
       link: /第一期/
     - theme: alt
-      text: 查看结营作业
-      link: /结营作业/
+      text: 查看项目实践
+      link: /第一期/结营作业/
 
 features:
   - title: 开源共建
@@ -43,9 +43,21 @@ features:
   </a>
 
   <a class="home-card" href="/第一期/">
-    <div class="home-card__eyebrow">学习路径</div>
-    <div class="home-card__title">第一期训练营</div>
-    <div class="home-card__text">从理论基础到仿真实操，按月推进学习。</div>
+    <div class="home-card__eyebrow">第一期</div>
+    <div class="home-card__title">学习路径总览</div>
+    <div class="home-card__text">从理论基础到平台实战，按阶段推进学习。</div>
+  </a>
+
+  <a class="home-card" href="/第二期/">
+    <div class="home-card__eyebrow">第二期</div>
+    <div class="home-card__title">学习路径总览</div>
+    <div class="home-card__text">查看第二期的阶段安排与当前学习结构。</div>
+  </a>
+
+  <a class="home-card" href="/第三期/">
+    <div class="home-card__eyebrow">第三期</div>
+    <div class="home-card__title">学习路径总览</div>
+    <div class="home-card__text">查看第三期的阶段安排与当前学习结构。</div>
   </a>
 </div>
 
@@ -71,10 +83,9 @@ features:
 
 ## 你可以从这里开始
 
-- 先看 [第一期总览](/第一期/) 了解整期训练营结构
-- 再看 [第一个月：理论基础](/第一期/month1/) 打牢机器人学和强化学习基础
-- 接着看 [第二个月：仿真实操](/第一期/month2/) 进入平台实战
-- 最后查看 [结营作业总览](/结营作业/) 了解最终任务成果
+- 先按期进入对应学习路径：[第一期](/第一期/)、[第二期](/第二期/)、[第三期](/第三期/)
+- 再阅读对应期次的 [阶段一：理论基础](/第一期/month1/) 和 [阶段二：平台实战](/第一期/month2/)
+- 如需查看已归档成果，可进入 [第一期项目实践](/第一期/结营作业/)
 
 <style>
 .home-cards {
