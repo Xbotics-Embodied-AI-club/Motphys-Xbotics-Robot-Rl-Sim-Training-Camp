@@ -4,7 +4,7 @@
 
 # 谋先飞机器人强化学习与仿真实训营
 
-面向机器人学、强化学习与具身智能爱好者的开源训练营，聚焦真实仿真任务，帮助你从理论基础走到 MotrixLab 落地实践；学习链路覆盖 `IsaacLab -> MotrixLab` 任务迁移。
+面向机器人学、强化学习与具身智能爱好者的开源训练营，聚焦真实仿真任务，帮助你从理论基础走到 MotrixLab 落地实践；内容围绕 MotrixLab 仿真平台学习与任务实践展开。
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Open%20Source-blue?logo=github)](https://github.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp)
 [![Docs](https://img.shields.io/badge/Docs-Read%20Now-orange)](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/tutorial/basic_frame.html)
@@ -16,65 +16,33 @@
 ## 项目简介
 
 - 学习周期：`2 个月`，分为理论基础与仿真实操两个阶段
-- 落地平台：以 `MotrixLab` 为主，学习链路覆盖 `IsaacLab -> MotrixLab` 迁移
+- 学习平台：聚焦 `MotrixLab` 仿真平台
 - 主线任务：围绕四足机器人导航与行走任务展开，强调可复现、可迁移、可落地
 - 仓库定位：沉淀训练营文档、学习路线、结营作业入口与社区共建信息
 
 ## 关键词
 
-`机器人学` `强化学习` `仿真` `MotrixLab` `IsaacLab` `VitePress` `训练营`
+`机器人学` `强化学习` `仿真` `MotrixLab` `VitePress` `训练营`
 
 ## 目录
 
-- [快速开始](#快速开始)
 - [学习路线](#学习路线)
 - [结营作业](#结营作业)
 - [社区共建](#社区共建)
 - [许可证](#许可证)
-
-## 快速开始
-
-> 推荐使用 `Node.js 24`，与仓库当前 GitHub Actions 构建环境保持一致。
-
-### 1. 安装依赖
-
-```bash
-npm ci
-```
-
-### 2. 本地启动文档站
-
-```bash
-npm run docs:dev
-```
-
-### 3. 构建静态站点
-
-```bash
-npm run docs:build
-```
-
-### 4. 本地预览构建结果
-
-```bash
-npm run docs:preview
-```
-
-### 5. 快速阅读入口
-
-- 官方平台教程：[MotrixLab 基础框架教程](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/tutorial/basic_frame.html)
-- 第一期总览：[第一期训练营](./docs/第一期/index.md)
-- 第一个月内容：[理论基础](./docs/第一期/month1/index.md)
-- 第二个月内容：[仿真实操](./docs/第一期/month2/index.md)
-- 作业归档入口：[结营作业总览](./docs/结营作业/index.md)
 
 ## 学习路线
 
 ### 第一期：机器人仿真实训
 
 - 第一个月：理论基础，覆盖坐标系变换、轨迹规划、FK/IK、深度强化学习 `PPO/A3C`
-- 第二个月：仿真实操，聚焦 `IsaacLab -> MotrixLab` 的任务理解、迁移与复现
+- 第二个月：仿真实操，聚焦 MotrixLab 平台的任务理解、配置与复现
 - 结营阶段：提交迁移代码、周报和结果分析，沉淀可复用的实践经验
+- 官方平台教程：[MotrixLab 基础框架教程](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/tutorial/basic_frame.html)
+- 第一期总览：[第一期训练营](./docs/第一期/index.md)
+- 第一个月内容：[理论基础](./docs/第一期/month1/index.md)
+- 第二个月内容：[仿真实操](./docs/第一期/month2/index.md)
+- 作业归档入口：[结营作业总览](./docs/结营作业/index.md)
 
 ### 适合谁
 

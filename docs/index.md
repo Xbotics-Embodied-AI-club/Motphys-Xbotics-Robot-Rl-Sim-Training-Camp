@@ -20,9 +20,9 @@ features:
   - title: 开源共建
     details: 训练营资料、案例与作业持续迭代，欢迎社区成员一起补充、优化与共建。
   - title: 理论 + 实操
-    details: 从坐标系变换、轨迹规划，到深度强化学习与仿真任务迁移，一步步打通完整链路。
+    details: 从坐标系变换、轨迹规划，到深度强化学习与 MotrixLab 仿真实操，一步步打通完整链路。
   - title: 平台实战
-    details: 聚焦 MotrixLab，围绕真实工程中的任务配置、迁移与复现展开。
+    details: 聚焦 MotrixLab，围绕真实工程中的任务配置、训练调试与结果复现展开。
   - title: 结营可落地
     details: 以四足机器人导航任务为主线，完成从学习到实践的闭环训练。
 ---
@@ -60,7 +60,7 @@ features:
   <div class="home-highlight">
     <span>02</span>
     <h3>工程化实践</h3>
-    <p>围绕真实仿真任务展开，强调可复现、可迁移、可落地。</p>
+    <p>围绕真实仿真任务展开，强调可复现、可调试、可落地。</p>
   </div>
   <div class="home-highlight">
     <span>03</span>
