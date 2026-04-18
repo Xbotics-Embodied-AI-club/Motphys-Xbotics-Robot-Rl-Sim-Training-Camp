@@ -36,7 +36,7 @@
 
   <text x="120" y="348" fill="#FFFFFF" font-size="82" font-family="Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="1.5">Xbotics</text>
   <text x="120" y="414" fill="#E2E8FF" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="500">Robot Simulation Training Camp</text>
-  <text x="120" y="468" fill="#AAB4D6" font-size="24" font-family="Arial, Helvetica, sans-serif">IsaacLab · MotrixLab · Robotics · RL · Embodied AI</text>
+  <text x="120" y="468" fill="#AAB4D6" font-size="24" font-family="Arial, Helvetica, sans-serif">IsaacLab ï¿½ MotrixLab ï¿½ Robotics ï¿½ RL ï¿½ Embodied AI</text>
 
   <g opacity="0.55">
     <rect x="1180" y="356" width="300" height="8" rx="4" fill="#FF6A3D"/>
