@@ -35,14 +35,16 @@
 
 ### 第一期：机器人仿真实训
 
-- 第一个月：理论基础，覆盖坐标系变换、轨迹规划、FK/IK、深度强化学习 `PPO/A3C`
-- 第二个月：仿真实操，聚焦 MotrixLab 平台的任务理解、配置与复现
-- 结营阶段：提交迁移代码、周报和结果分析，沉淀可复用的实践经验
-- 官方平台教程：[MotrixLab 基础框架教程](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/tutorial/basic_frame.html)
-- 第一期总览：[第一期训练营](./docs/第一期/index.md)
-- 第一个月内容：[理论基础](./docs/第一期/month1/index.md)
-- 第二个月内容：[仿真实操](./docs/第一期/month2/index.md)
-- 作业归档入口：[结营作业总览](./docs/结营作业/index.md)
+- **阶段概览**：
+  - 第一个月：理论基础，覆盖坐标系变换、轨迹规划、FK/IK、深度强化学习 `PPO/A3C`
+  - 第二个月：仿真实操，聚焦 MotrixLab 平台的任务理解、配置与复现
+  - 结营阶段：提交迁移代码、周报和结果分析，沉淀可复用的实践经验
+- **阅读入口**：
+  - 官方平台教程：[MotrixLab 基础框架教程](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/tutorial/basic_frame.html)
+  - 第一期总览：[第一期训练营](./docs/第一期/index.md)
+  - 第一个月内容：[理论基础](./docs/第一期/month1/index.md)
+  - 第二个月内容：[仿真实操](./docs/第一期/month2/index.md)
+  - 作业归档入口：[结营作业总览](./docs/结营作业/index.md)
 
 ### 适合谁
 
@@ -63,10 +65,10 @@
 
 ### 第一期
 
-- 学员：张恒
-- 任务：Unitree Go2 平地行走任务迁移（`Isaac-Velocity-Flat-Unitree-Go2-v0` -> `MotrixLab`）
-- 代码仓库：[cotton365/MotrixLab-go2](https://github.com/cotton365/MotrixLab-go2)
-- 查看解析：[张恒结营作业说明](./docs/结营作业/第一期/张恒/index.md)
+- **学员**：张恒
+- **任务**：Unitree Go2 平地行走任务迁移（`Isaac-Velocity-Flat-Unitree-Go2-v0` -> `MotrixLab`）
+- **代码仓库**：[cotton365/MotrixLab-go2](https://github.com/cotton365/MotrixLab-go2)
+- **查看解析**：[张恒结营作业说明](./docs/结营作业/第一期/张恒/index.md)
 
 ## 社区共建
 
