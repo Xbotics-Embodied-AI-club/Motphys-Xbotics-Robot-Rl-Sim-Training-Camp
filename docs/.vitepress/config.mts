@@ -24,6 +24,12 @@ export default defineConfig({
         ]
       },
       {
+        text: '课程资料',
+        items: [
+          { text: '强化学习与 MotrixLab 入门', link: '/强化学习与MotrixLab入门/' }
+        ]
+      },
+      {
         text: '项目实践',
         items: [
           { text: '第一期项目实践', link: '/第一期/结营作业/' },
@@ -66,6 +72,13 @@ export default defineConfig({
               { text: '阶段二：平台实战', link: '/第三期/month2/' }
             ]
           }
+        ]
+      },
+      {
+        text: '课程资料',
+        collapsed: false,
+        items: [
+          { text: '强化学习与 MotrixLab 入门', link: '/强化学习与MotrixLab入门/' }
         ]
       },
       {
