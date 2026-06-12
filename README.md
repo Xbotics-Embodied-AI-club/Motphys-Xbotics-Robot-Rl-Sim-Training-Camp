@@ -39,14 +39,17 @@
 - **阶段概览**：
   - 阶段一：理论基础，覆盖坐标系变换、轨迹规划、FK/IK、深度强化学习 `PPO/A3C`
   - 阶段二：平台实战，聚焦 MotrixLab 平台的任务理解、配置与复现
-  - 项目实践：提交代码、周报和结果分析，沉淀可复用的工程经验
+  - 结营实践：提交代码、周报、结果分析和结营作业，沉淀可复用的工程经验
 - **阅读入口**：
   - 官方平台教程：[MotrixLab 基础框架教程](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/tutorial/basic_frame.html)
-  - 第一期：[学习路径总览](./docs/第一期/index.md)
-  - 第二期：[学习路径总览](./docs/第二期/index.md)
-  - 第三期：[学习路径总览](./docs/第三期/index.md)
-  - 课程资料：[第四期实训营（强化学习与motrilab入门课程）](./docs/强化学习与MotrixLab入门/index.md)
-  - 第一期项目实践：[项目实践入口](./docs/第一期/结营作业/index.md)
+  - 第一期（已结营）：[学习路径总览](./docs/第一期/index.md)
+  - 第二期（已结营）：[学习路径总览](./docs/第二期/index.md)
+  - 第三期（已结营）：[学习路径总览](./docs/第三期/index.md)
+  - 第四期：[第四期实训营（强化学习与motrilab入门课程）](./docs/强化学习与MotrixLab入门/index.md)
+  - 结营作业：
+    - 第一期结营作业：[项目实践入口](./docs/第一期/结营作业/index.md)
+    - 第二期结营作业：暂无归档
+    - 第三期结营作业：[项目实践入口](./docs/第三期/结营作业/index.md)
 
 ## 课程资料
 
@@ -69,12 +72,27 @@
 
 ## 项目实践
 
-### 当前成果
+### 第一期
 
-- **学员**：张恒
-- **任务**：Unitree Go2 平地行走任务实践（`MotrixLab`）
-- **代码仓库**：[cotton365/MotrixLab-go2](https://github.com/cotton365/MotrixLab-go2)
-- **查看解析**：[张恒结营作业说明](./docs/第一期/结营作业/张恒/index.md)
+| 学员 | 任务 | 代码仓库 | 查看解析 |
+| :--- | :--- | :--- | :--- |
+| 张恒 | Unitree Go2 平地行走任务实践（`MotrixLab`） | [cotton365/MotrixLab-go2](https://github.com/cotton365/MotrixLab-go2) | [张恒结营作业说明](./docs/第一期/结营作业/张恒/index.md) |
+
+### 第二期
+
+暂无归档结营作业。
+
+### 第三期
+
+| 学员 | 任务 | 资料 |
+| :--- | :--- | :--- |
+| 待补充 | 结营作业 | [查看](https://fcn8myj2ic36.feishu.cn/wiki/HQI1wE2fwiNiOakotnAcZMPdnpb?from=from_copylink) |
+| 待补充 | 结营作业 | [查看](https://ocnclzxvu1g2.feishu.cn/docx/HKtQdgTEYocIUKxJU1TczKl7ntN?from=from_copylink) |
+| 待补充 | 第三期结营作业 | [查看](https://tcncarme1ex9.feishu.cn/docx/WauidLuT6oN0nIx9DFGcQCQnnFh?from=from_copylink) |
+| 待补充 | MotrixArena S1 越障导航 | [查看](https://my.feishu.cn/wiki/N2kowPUZii86cgkQIPYcwaA2nIh?from=from_copylink) |
+| 待补充 | 第三期结营作业 | [查看](https://acn7eq49gyn8.feishu.cn/wiki/XbxowziOhiwPPtkkgN2c8ot8nrh?from=from_copylink) |
+
+更多第三期成果整理见 [第三期结营作业](./docs/第三期/结营作业/index.md)。
 
 ## 社区共建
 
