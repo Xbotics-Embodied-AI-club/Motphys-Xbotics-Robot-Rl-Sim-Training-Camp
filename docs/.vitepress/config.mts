@@ -26,14 +26,15 @@ export default defineConfig({
       {
         text: '课程资料',
         items: [
-          { text: '强化学习与 MotrixLab 入门', link: '/强化学习与MotrixLab入门/' }
+          { text: '第四期实训营（强化学习与motrilab入门课程）', link: '/强化学习与MotrixLab入门/' }
         ]
       },
       {
         text: '项目实践',
         items: [
           { text: '第一期项目实践', link: '/第一期/结营作业/' },
-          { text: '张恒 — Go2 平地实践', link: '/第一期/结营作业/张恒/' }
+          { text: '张恒 — Go2 平地实践', link: '/第一期/结营作业/张恒/' },
+          { text: '第三期结营作业', link: '/第三期/结营作业/' }
         ]
       }
     ],
@@ -69,7 +70,8 @@ export default defineConfig({
             items: [
               { text: '📋 路径总览', link: '/第三期/' },
               { text: '阶段一：理论基础', link: '/第三期/month1/' },
-              { text: '阶段二：平台实战', link: '/第三期/month2/' }
+              { text: '阶段二：平台实战', link: '/第三期/month2/' },
+              { text: '项目实践', link: '/第三期/结营作业/' }
             ]
           }
         ]
@@ -78,7 +80,7 @@ export default defineConfig({
         text: '课程资料',
         collapsed: false,
         items: [
-          { text: '强化学习与 MotrixLab 入门', link: '/强化学习与MotrixLab入门/' }
+          { text: '第四期实训营（强化学习与motrilab入门课程）', link: '/强化学习与MotrixLab入门/' }
         ]
       },
       {
@@ -86,7 +88,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '📦 第一期项目实践', link: '/第一期/结营作业/' },
-          { text: '张恒 — Go2 平地实践', link: '/第一期/结营作业/张恒/' }
+          { text: '张恒 — Go2 平地实践', link: '/第一期/结营作业/张恒/' },
+          { text: '📦 第三期结营作业', link: '/第三期/结营作业/' }
         ]
       }
     ],

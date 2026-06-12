@@ -45,12 +45,12 @@
   - 第一期：[学习路径总览](./docs/第一期/index.md)
   - 第二期：[学习路径总览](./docs/第二期/index.md)
   - 第三期：[学习路径总览](./docs/第三期/index.md)
-  - 课程资料：[强化学习与 MotrixLab 入门](./docs/强化学习与MotrixLab入门/index.md)
+  - 课程资料：[第四期实训营（强化学习与motrilab入门课程）](./docs/强化学习与MotrixLab入门/index.md)
   - 第一期项目实践：[项目实践入口](./docs/第一期/结营作业/index.md)
 
 ## 课程资料
 
-- [强化学习与 MotrixLab 入门](./docs/强化学习与MotrixLab入门/index.md)：整理强化学习基础课程与 MotrixLab 入门精品课程，覆盖平台架构、训练环境、奖励函数、配置/注册系统、训练流程和 Demo 分析方法。
+- [第四期实训营（强化学习与motrilab入门课程）](./docs/强化学习与MotrixLab入门/index.md)：整理强化学习基础课程与 MotrixLab 入门精品课程，覆盖平台架构、训练环境、奖励函数、配置/注册系统、训练流程和 Demo 分析方法。
 
 ## 适合谁
 
