@@ -55,38 +55,6 @@
 | 11 | [注册系统：新环境如何接入框架](./线上视频教案/11-注册系统-新环境如何接入框架.md) |
 | 12 | [总结：如何自己改 Demo、调奖励、做新任务](./线上视频教案/12-总结-如何自己改Demo调奖励做新任务.md) |
 
-## PPT 资料
-
-以下 PPT 文件名来自当前课程说明，实体文件尚未上传到仓库。
-
-| 资料 | 文件名 | 状态 |
-| :--- | :--- | :--- |
-| 强化学习入门 | `强化学习入门：基本概念与马尔可夫模型(1).pptx` | 待上传 |
-| 贝尔曼方程 | `BellmanEquation(1).pptx` | 待上传 |
-| 强化学习核心求解方法 | `强化学习核心求解方法.pptx` | 待上传 |
-| 时序差分算法入门 | `时序差分算法(1).pptx` | 待上传 |
-| MotrixLab 框架介绍 | `MotrixLab_框架介绍.pptx` | 待上传 |
-| MotrixLab 分层结构 | `MotrixLab_分层结构.pptx` | 待上传 |
-
-## 飞书文档转 Markdown
-
-以下飞书教案链接已收录，正文 Markdown 转换内容待补充。
-
-| 课次 | 飞书文档 | 状态 |
-| :---: | :--- | :--- |
-| 1 | [课程导论：MotrixLab 能做什么](https://tcnmf6tdu5z9.feishu.cn/wiki/K93Fwc0EyibDtskUypyc6TrVnve?from=from_copylink) | 待转换/待补全文 |
-| 2 | [基础框架总览：分层架构怎么看](https://tcnmf6tdu5z9.feishu.cn/wiki/TFuMwcII0i1UT1kCqOWcleeVn4c?from=from_copylink) | 待转换/待补全文 |
-| 3 | [训练环境：EnvCfg、Env、Reward 的关系](https://ucnj8k63v5wn.feishu.cn/docx/EqkzdvVXloTM99x2g7GcntBMnBe) | 待转换/待补全文 |
-| 4 | [奖励函数：为什么奖励决定训练成败](https://ucnj8k63v5wn.feishu.cn/docx/TRqRdemjtoCEWKxU9gHcC73jndh) | 待转换/待补全文 |
-| 5 | [配置系统：环境配置与训练配置怎么协作](https://ucnj8k63v5wn.feishu.cn/docx/X4tOdiE2Bo7MtzxLy6Vcyhd1nEh) | 待转换/待补全文 |
-| 6 | [注册系统：新环境如何接入框架](https://ucnj8k63v5wn.feishu.cn/docx/H6sKdcRTMoSdyqxmn6xcQznunBc) | 待转换/待补全文 |
-| 7 | [训练流程：从 train.py 到模型保存](https://ucnj8k63v5wn.feishu.cn/docx/MwLXdZ7vXogUS8xLtXCcdimunre) | 待转换/待补全文 |
-| 8 | [Demo 分析方法：如何读懂一个案例](https://ucnj8k63v5wn.feishu.cn/docx/CmpSdCycbo4Sl4x19Yfcadxdnnh) | 待转换/待补全文 |
-| 9 | [基础控制 Demo 讲解：倒立摆 / 单摆 / 双连杆](https://ucnj8k63v5wn.feishu.cn/docx/NYOAdtmHFo8e3txNi7IcnBHJnwe) | 待转换/待补全文 |
-| 10 | [机械臂与抓取 Demo 讲解](https://ucnj8k63v5wn.feishu.cn/docx/WjEtdSC9mo0DOYxxXtVcUugqnFg) | 待转换/待补全文 |
-| 11 | [运动机器人 Demo 讲解：Walker / GO1 / Humanoid](https://ucnj8k63v5wn.feishu.cn/docx/IwqZdUycAoC55AxkzPzcSiIpnzd) | 待转换/待补全文 |
-| 12 | [总结：如何自己改 Demo、调奖励、做新任务](https://ucnj8k63v5wn.feishu.cn/docx/QPshdrVOCocs9px9n6dcRB2OnZf) | 待转换/待补全文 |
-
 ---
 
 ## 第 1 讲：课程导论
