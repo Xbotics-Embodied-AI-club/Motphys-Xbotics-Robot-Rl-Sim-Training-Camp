@@ -18,8 +18,8 @@ pageClass: course-materials-page
 
 | 模块 | 学习重点 | 资料 |
 | :--- | :--- | :--- |
-| 强化学习入门 | 基本概念与马尔可夫模型 | [01-强化学习入门-基本概念与马尔可夫模型.pptx](../../ppt/01-强化学习入门-基本概念与马尔可夫模型.pptx) |
-| 贝尔曼方程 | 价值函数、状态转移与 Bellman Equation | [02-Bellman-Equation.pptx](../../ppt/02-Bellman-Equation.pptx) |
+| 强化学习入门 | 基本概念与马尔可夫模型 | PPT：[01-强化学习入门-基本概念与马尔可夫模型.pptx](../../ppt/01-强化学习入门-基本概念与马尔可夫模型.pptx)<br>视频：[B 站视频](https://www.bilibili.com/video/BV1WqUqBYEAW/) |
+| 贝尔曼方程 | 价值函数、状态转移与 Bellman Equation | PPT：[02-Bellman-Equation.pptx](../../ppt/02-Bellman-Equation.pptx)<br>视频：[B 站视频](https://www.bilibili.com/video/BV1XQm4BEEdn/) |
 | 强化学习核心求解方法 | 策略迭代、值迭代、蒙特卡洛方法 | [03-强化学习核心求解方法.pptx](../../ppt/03-强化学习核心求解方法.pptx) |
 | 时序差分算法入门 | TD 学习、Bootstrapping 与采样更新 | [04-时序差分算法.pptx](../../ppt/04-时序差分算法.pptx) |
 
