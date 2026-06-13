@@ -2,7 +2,7 @@
 pageClass: course-materials-page
 ---
 
-# 第四期实训营（强化学习与motrilab入门课程）
+# 第四期实训营（强化学习与 MotrixLab 入门课程）
 
 > [!TIP]
 > 本页整理强化学习基础与 MotrixLab 入门精品课程，适合作为训练营前置学习、平台实战预习和作业提交参考。
