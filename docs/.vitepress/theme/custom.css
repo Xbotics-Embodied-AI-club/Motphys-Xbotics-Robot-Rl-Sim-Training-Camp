@@ -424,11 +424,74 @@
    5. 确认 max-width 值已经被成功覆盖
    ============================================================================ */
 
-/* 表格样式 */
-th,
-td {
-  /* white-space: nowrap !important; */
-  /* 不让th，td内容换行显示 */
-  width: 10%;
-  /* 强制均匀分配宽度 */
+/* 第四期课程资料页表格 */
+.course-materials-page .vp-doc table {
+  display: table;
+  width: 100%;
+  margin: 18px 0 28px;
+  border: 1px solid var(--vp-c-divider);
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  table-layout: fixed;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.course-materials-page .vp-doc thead {
+  background: color-mix(in srgb, var(--vp-c-brand-1) 10%, var(--vp-c-bg-soft));
+}
+
+.course-materials-page .vp-doc th,
+.course-materials-page .vp-doc td {
+  border: 0;
+  border-right: 1px solid var(--vp-c-divider);
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding: 12px 14px;
+  vertical-align: top;
+}
+
+.course-materials-page .vp-doc th {
+  color: var(--vp-c-text-1);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.course-materials-page .vp-doc tr:last-child td {
+  border-bottom: 0;
+}
+
+.course-materials-page .vp-doc th:last-child,
+.course-materials-page .vp-doc td:last-child {
+  border-right: 0;
+}
+
+.course-materials-page .vp-doc tbody tr:nth-child(even) {
+  background: var(--vp-c-bg-soft);
+}
+
+.course-materials-page .vp-doc tbody tr:hover {
+  background: color-mix(in srgb, var(--vp-c-brand-1) 8%, var(--vp-c-bg));
+}
+
+.course-materials-page .vp-doc td a {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 767px) {
+  .course-materials-page .vp-doc table {
+    display: block;
+    width: 100%;
+    min-width: 680px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .course-materials-page .vp-doc th,
+  .course-materials-page .vp-doc td {
+    min-width: 160px;
+    padding: 10px 12px;
+  }
 }

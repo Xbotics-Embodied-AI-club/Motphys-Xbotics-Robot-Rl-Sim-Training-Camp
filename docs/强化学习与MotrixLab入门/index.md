@@ -1,3 +1,7 @@
+---
+pageClass: course-materials-page
+---
+
 # 第四期实训营（强化学习与motrilab入门课程）
 
 > [!TIP]
@@ -14,10 +18,10 @@
 
 | 模块 | 学习重点 | 资料 |
 | :--- | :--- | :--- |
-| 强化学习入门 | 基本概念与马尔可夫模型 | `强化学习入门：基本概念与马尔可夫模型(1).pptx` |
-| 贝尔曼方程 | 价值函数、状态转移与 Bellman Equation | `BellmanEquation(1).pptx` |
-| 强化学习核心求解方法 | 策略迭代、值迭代、蒙特卡洛方法 | `强化学习核心求解方法.pptx` |
-| 时序差分算法入门 | TD 学习、Bootstrapping 与采样更新 | `时序差分算法(1).pptx` |
+| 强化学习入门 | 基本概念与马尔可夫模型 | [01-强化学习入门-基本概念与马尔可夫模型.pptx](../../ppt/01-强化学习入门-基本概念与马尔可夫模型.pptx) |
+| 贝尔曼方程 | 价值函数、状态转移与 Bellman Equation | [02-Bellman-Equation.pptx](../../ppt/02-Bellman-Equation.pptx) |
+| 强化学习核心求解方法 | 策略迭代、值迭代、蒙特卡洛方法 | [03-强化学习核心求解方法.pptx](../../ppt/03-强化学习核心求解方法.pptx) |
+| 时序差分算法入门 | TD 学习、Bootstrapping 与采样更新 | [04-时序差分算法.pptx](../../ppt/04-时序差分算法.pptx) |
 
 ## MotrixLab 入门精品课程
 
@@ -70,7 +74,7 @@
 **课程资料**
 
 - 课程教案：[MotrixLab 入门课程（1）—— 课程导论：MotrixLab 能做什么](https://tcnmf6tdu5z9.feishu.cn/wiki/K93Fwc0EyibDtskUypyc6TrVnve?from=from_copylink)
-- 课程 PPT：`MotrixLab_框架介绍.pptx`
+- 课程 PPT：[05-MotrixLab-框架介绍.pptx](../../ppt/05-MotrixLab-框架介绍.pptx)
 - 学习视频：[MotrixLab 入门课程 第 1 讲——框架介绍](https://www.bilibili.com/video/BV1t9Vm6UEVX)
 
 **课程作业**
@@ -96,7 +100,7 @@
 **课程资料**
 
 - 课程教案：[MotrixLab 入门课程（2）—— 基础框架总览：分层架构怎么看](https://tcnmf6tdu5z9.feishu.cn/wiki/TFuMwcII0i1UT1kCqOWcleeVn4c?from=from_copylink)
-- 课程 PPT：`MotrixLab_分层结构.pptx`
+- 课程 PPT：[06-MotrixLab-分层结构.pptx](../../ppt/06-MotrixLab-分层结构.pptx)
 - 学习视频：[MotrixLab 入门课程 第 2 讲——分层结构](https://www.bilibili.com/video/BV1T9Vm6UEiw)
 
 **课程作业**
