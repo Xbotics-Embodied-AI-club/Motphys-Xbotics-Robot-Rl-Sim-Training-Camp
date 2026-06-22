@@ -79,6 +79,7 @@ export default defineConfig({
               { text: '📋 路径总览', link: '/第三期/' },
               { text: '阶段一：理论基础', link: '/第三期/month1/' },
               { text: '阶段二：平台实战', link: '/第三期/month2/' },
+              { text: '🌟 优秀成果', link: '/第三期/优秀成果/' },
               { text: '项目实践', link: '/第三期/结营作业/' }
             ]
           }
