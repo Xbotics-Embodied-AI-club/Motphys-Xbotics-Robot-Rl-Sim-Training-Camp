@@ -15,6 +15,7 @@ export default defineConfig({
     // 网站顶部的导航栏
     nav: [
       { text: '首页', link: '/' },
+      { text: '周报标准', link: '/周报评审标准' },
       {
         text: '学习路径',
         items: [
@@ -26,7 +27,7 @@ export default defineConfig({
       {
         text: '课程资料',
         items: [
-          { text: '第四期实训营（强化学习与motrilab入门课程）', link: '/强化学习与MotrixLab入门/' }
+          { text: '第四期（强化学习与MotrixLab入门）', link: '/强化学习与MotrixLab入门/' }
         ]
       },
       {
@@ -41,6 +42,13 @@ export default defineConfig({
 
     // 网站左侧的侧边栏目录
     sidebar: [
+      {
+        text: '提交与评审',
+        collapsed: false,
+        items: [
+          { text: '优秀周报评审标准', link: '/周报评审标准' }
+        ]
+      },
       {
         text: '学习路径',
         collapsed: false,
@@ -80,7 +88,7 @@ export default defineConfig({
         text: '课程资料',
         collapsed: false,
         items: [
-          { text: '第四期实训营（强化学习与motrilab入门课程）', link: '/强化学习与MotrixLab入门/' }
+          { text: '第四期（强化学习与MotrixLab入门）', link: '/强化学习与MotrixLab入门/' }
         ]
       },
       {

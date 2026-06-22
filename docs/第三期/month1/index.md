@@ -15,6 +15,15 @@
 
 - 飞书在线文档：[MotrixLab 线上实习第一月](https://tcnmf6tdu5z9.feishu.cn/wiki/AGfRws912i0N5EkshfxcL5sNnZc?from=from_copylink)
 
+## 🌟 优秀周报
+
+| 周次 | 周报 | 主要阶段 |
+| :--- | :---: | :--- |
+| 第一月第 1—3 周 | [查看优秀周报](https://my.feishu.cn/wiki/FwdawbqhRi3vGQkOwu1cyhWpnFc?from=from_copylink) | 坐标变换、轨迹规划与机器人运动学 |
+
+> [!NOTE]
+> 该文档合并记录第一月第 1、2、3 周内容。作者信息将在获得可读取的文档信息后补充。
+
 ## 📝 飞书文档文字摘录
 
 ### 第 1 周：坐标系与位姿变换

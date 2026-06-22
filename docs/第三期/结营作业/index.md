@@ -16,4 +16,9 @@
 
 ## 优秀结营作业
 
-优秀结营作业待补充。后续确认优秀作品后，可从上方成果列表中筛选并补充到本节。
+| 学员 | 作品 | 详情 |
+| :--- | :--- | :---: |
+| 待补充 | 第三期优秀结营作业 | [查看](https://tcncarme1ex9.feishu.cn/docx/WauidLuT6oN0nIx9DFGcQCQnnFh?from=from_copylink) |
+
+> [!NOTE]
+> 学员姓名和具体任务名称将在获得可读取的文档信息后补充。

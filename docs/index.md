@@ -62,7 +62,7 @@ features:
 
   <a class="home-card" href="/强化学习与MotrixLab入门/">
     <div class="home-card__eyebrow">课程资料</div>
-    <div class="home-card__title">第四期实训营（强化学习与 MotrixLab 入门课程）</div>
+    <div class="home-card__title">第四期（强化学习与MotrixLab入门）</div>
     <div class="home-card__text">从强化学习基础到 MotrixLab Demo 实战的系统资料。</div>
   </a>
 </div>
@@ -90,7 +90,7 @@ features:
 ## 你可以从这里开始
 
 - 先按期进入对应学习路径：[第一期](/第一期/)、[第二期](/第二期/)、[第三期](/第三期/)
-- 如需补齐前置知识，可阅读 [第四期实训营（强化学习与 MotrixLab 入门课程）](/强化学习与MotrixLab入门/)
+- 如需补齐前置知识，可阅读 [第四期（强化学习与MotrixLab入门）](/强化学习与MotrixLab入门/)
 - 再阅读对应期次的 [阶段一：理论基础](/第一期/month1/) 和 [阶段二：平台实战](/第一期/month2/)
 - 如需查看已归档成果，可进入 [第一期项目实践](/第一期/结营作业/) 或 [第三期结营作业](/第三期/结营作业/)
 
