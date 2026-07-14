@@ -13,6 +13,7 @@ pageClass: course-materials-page
 - **适合人群**：准备进入机器人强化学习实战、希望系统理解 MotrixLab 工作流的学习者。
 - **交付形式**：每节课建议形成学习文档，包含概念理解、实验记录、代码分析、视频或截图等成果。
 - **视频合集**：[强化学习与 MotrixLab 入门课程](https://www.bilibili.com/video/BV1t9Vm6UEVX)
+- **每日练习**：[第四期每日一题（8 周 56 题）](./每日一题.md)
 
 ## 培养路径
 
@@ -63,13 +64,13 @@ pageClass: course-materials-page
 | 2 | [基础框架总览：分层架构怎么看](./线上视频教案/02-基础框架总览-分层架构怎么看.md) |
 | 3 | [训练环境：EnvCfg、Env、Reward 的关系](./线上视频教案/03-训练环境-EnvCfg-Env-Reward的关系.md) |
 | 4 | [奖励函数：为什么奖励决定训练成败](./线上视频教案/04-奖励函数-为什么奖励决定训练成败.md) |
-| 5 | [Demo 分析方法：如何读懂一个案例](./线上视频教案/05-Demo分析方法-如何读懂一个案例.md) |
-| 6 | [基础控制 Demo 讲解：倒立摆 / 单摆 / 双连杆](./线上视频教案/06-基础控制Demo讲解-倒立摆单摆双连杆.md) |
-| 7 | [机械臂与抓取 Demo 讲解](./线上视频教案/07-机械臂与抓取Demo讲解.md) |
-| 8 | [运动机器人 Demo 讲解：Walker / GO1 / Humanoid](./线上视频教案/08-运动机器人Demo讲解-Walker-GO1-Humanoid.md) |
-| 9 | [训练流程：从 train.py 到模型保存](./线上视频教案/09-训练流程-从train.py到模型保存.md) |
-| 10 | [配置系统：环境配置与训练配置怎么协作](./线上视频教案/10-配置系统-环境配置与训练配置怎么协作.md) |
-| 11 | [注册系统：新环境如何接入框架](./线上视频教案/11-注册系统-新环境如何接入框架.md) |
+| 5 | [配置系统：环境配置与训练配置怎么协作](./线上视频教案/05-配置系统-环境配置与训练配置怎么协作.md) |
+| 6 | [注册系统：新环境如何接入框架](./线上视频教案/06-注册系统-新环境如何接入框架.md) |
+| 7 | [训练流程：从 train.py 到模型保存](./线上视频教案/07-训练流程-从train.py到模型保存.md) |
+| 8 | [Demo 分析方法：如何读懂一个案例](./线上视频教案/08-Demo分析方法-如何读懂一个案例.md) |
+| 9 | [基础控制 Demo 讲解：倒立摆 / 单摆 / 双连杆](./线上视频教案/09-基础控制Demo讲解-倒立摆单摆双连杆.md) |
+| 10 | [机械臂与抓取 Demo 讲解](./线上视频教案/10-机械臂与抓取Demo讲解.md) |
+| 11 | [运动机器人 Demo 讲解：Walker / GO1 / Humanoid](./线上视频教案/11-运动机器人Demo讲解-Walker-GO1-Humanoid.md) |
 | 12 | [总结：如何自己改 Demo、调奖励、做新任务](./线上视频教案/12-总结-如何自己改Demo调奖励做新任务.md) |
 
 ---
@@ -86,7 +87,7 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[MotrixLab 入门课程（1）—— 课程导论：MotrixLab 能做什么](https://tcnmf6tdu5z9.feishu.cn/wiki/K93Fwc0EyibDtskUypyc6TrVnve?from=from_copylink)
+- 课程教案：[MotrixLab 入门课程（1）—— 课程导论：MotrixLab 能做什么](./线上视频教案/01-课程导论-MotrixLab能做什么.md)
 - 课程 PPT：[05-MotrixLab-框架介绍.pptx](../../ppt/05-MotrixLab-框架介绍.pptx)
 - 学习视频：[MotrixLab 入门课程 第 1 讲——框架介绍](https://www.bilibili.com/video/BV1t9Vm6UEVX)
 
@@ -112,7 +113,7 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[MotrixLab 入门课程（2）—— 基础框架总览：分层架构怎么看](https://tcnmf6tdu5z9.feishu.cn/wiki/TFuMwcII0i1UT1kCqOWcleeVn4c?from=from_copylink)
+- 课程教案：[MotrixLab 入门课程（2）—— 基础框架总览：分层架构怎么看](./线上视频教案/02-基础框架总览-分层架构怎么看.md)
 - 课程 PPT：[06-MotrixLab-分层结构.pptx](../../ppt/06-MotrixLab-分层结构.pptx)
 - 学习视频：[MotrixLab 入门课程 第 2 讲——分层结构](https://www.bilibili.com/video/BV1T9Vm6UEiw)
 
@@ -139,7 +140,7 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[MotrixLab 入门课程（3）—— 训练环境：EnvCfg、Env、Reward 的关系](https://ucnj8k63v5wn.feishu.cn/docx/EqkzdvVXloTM99x2g7GcntBMnBe)
+- 课程教案：[MotrixLab 入门课程（3）—— 训练环境：EnvCfg、Env、Reward 的关系](./线上视频教案/03-训练环境-EnvCfg-Env-Reward的关系.md)
 - 学习视频：[MotrixLab 入门课程 第 3 讲——训练环境](https://www.bilibili.com/video/BV1NfVm6LE82)
 
 **课程作业**
@@ -165,7 +166,7 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[MotrixLab 入门课程（4）—— 奖励函数：为什么奖励决定训练成败](https://ucnj8k63v5wn.feishu.cn/docx/TRqRdemjtoCEWKxU9gHcC73jndh)
+- 课程教案：[MotrixLab 入门课程（4）—— 奖励函数：为什么奖励决定训练成败](./线上视频教案/04-奖励函数-为什么奖励决定训练成败.md)
 - 学习视频：[MotrixLab 入门课程 第 4 讲——奖励函数](https://www.bilibili.com/video/BV1NfVm6LE3m)
 
 **课程作业**
@@ -190,7 +191,7 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[配置系统：环境配置与训练配置怎么协作](https://ucnj8k63v5wn.feishu.cn/docx/X4tOdiE2Bo7MtzxLy6Vcyhd1nEh)
+- 课程教案：[配置系统：环境配置与训练配置怎么协作](./线上视频教案/05-配置系统-环境配置与训练配置怎么协作.md)
 - 学习视频：[MotrixLab 入门课程 第 5 讲——配置系统](https://www.bilibili.com/video/BV1xfVm6LEVa)
 
 **课程作业**
@@ -214,7 +215,7 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[注册系统：新环境如何接入框架](https://ucnj8k63v5wn.feishu.cn/docx/H6sKdcRTMoSdyqxmn6xcQznunBc)
+- 课程教案：[注册系统：新环境如何接入框架](./线上视频教案/06-注册系统-新环境如何接入框架.md)
 - 学习视频：[MotrixLab 入门课程 第 6 讲——注册系统](https://www.bilibili.com/video/BV1NfVm6LEv7)
 
 **课程作业**
@@ -242,7 +243,7 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[训练流程：从 train.py 到模型保存](https://ucnj8k63v5wn.feishu.cn/docx/MwLXdZ7vXogUS8xLtXCcdimunre)
+- 课程教案：[训练流程：从 train.py 到模型保存](./线上视频教案/07-训练流程-从train.py到模型保存.md)
 - 学习视频：[MotrixLab 入门课程 第 7 讲——训练流程](https://www.bilibili.com/video/BV1xfVm6LETE)
 
 **课程作业**
@@ -266,7 +267,7 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[Demo 分析方法：如何读懂一个案例](https://ucnj8k63v5wn.feishu.cn/docx/CmpSdCycbo4Sl4x19Yfcadxdnnh)
+- 课程教案：[Demo 分析方法：如何读懂一个案例](./线上视频教案/08-Demo分析方法-如何读懂一个案例.md)
 - 学习视频：[MotrixLab 入门课程 第 8 讲——Demo 分析方法](https://www.bilibili.com/video/BV1fGVU6vEA3)
 - 参考文档：[CartPole 官方 Demo](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/demo/cartpole.html)
 
@@ -291,7 +292,7 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[基础控制 Demo 讲解：倒立摆 / 单摆 / 双连杆](https://ucnj8k63v5wn.feishu.cn/docx/NYOAdtmHFo8e3txNi7IcnBHJnwe)
+- 课程教案：[基础控制 Demo 讲解：倒立摆 / 单摆 / 双连杆](./线上视频教案/09-基础控制Demo讲解-倒立摆单摆双连杆.md)
 - 学习视频：[9.1 基础控制 Demo 讲解](https://www.bilibili.com/video/BV1hKVm6DE5q?p=1)、[9.2 基础控制 Demo 讲解](https://www.bilibili.com/video/BV1hKVm6DE5q?p=2)
 - 参考文档：[双关节机械臂控制任务](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/demo/dm_reacher.html)
 
@@ -321,7 +322,7 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[机械臂与抓取 Demo 讲解](https://ucnj8k63v5wn.feishu.cn/docx/WjEtdSC9mo0DOYxxXtVcUugqnFg)
+- 课程教案：[机械臂与抓取 Demo 讲解](./线上视频教案/10-机械臂与抓取Demo讲解.md)
 - 学习视频：[MotrixLab 入门课程 第 10 讲——机械臂与抓取 Demo 讲解](https://www.bilibili.com/video/BV1F2V26vExQ)
 
 **课程作业**
@@ -348,7 +349,7 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[运动机器人 Demo 讲解：Walker / GO1 / Humanoid](https://ucnj8k63v5wn.feishu.cn/docx/IwqZdUycAoC55AxkzPzcSiIpnzd)
+- 课程教案：[运动机器人 Demo 讲解：Walker / GO1 / Humanoid](./线上视频教案/11-运动机器人Demo讲解-Walker-GO1-Humanoid.md)
 - 学习视频：[第 11 讲 part11 上](https://www.bilibili.com/video/BV1ZQV26cEUS?p=1)、[第 11 讲 part11 下](https://www.bilibili.com/video/BV1ZQV26cEUS?p=2)
 
 **课程作业**
@@ -372,7 +373,7 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[总结：如何自己改 Demo、调奖励、做新任务](https://ucnj8k63v5wn.feishu.cn/docx/QPshdrVOCocs9px9n6dcRB2OnZf)
+- 课程教案：[总结：如何自己改 Demo、调奖励、做新任务](./线上视频教案/12-总结-如何自己改Demo调奖励做新任务.md)
 - 学习视频：[MotrixLab 入门课程 第 12 讲——总结](https://www.bilibili.com/video/BV1ESV26YEzX)
 
 **课程作业**
