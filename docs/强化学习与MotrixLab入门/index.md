@@ -56,7 +56,7 @@ pageClass: course-materials-page
 
 ## 线上视频教案
 
-以下教案来自 `motrixlab-course`，用于配合线上视频学习和讲授。
+以下教案已整理为本地 Markdown，用于配合线上视频学习和讲授。
 
 | 课次 | 教案 |
 | :---: | :--- |
