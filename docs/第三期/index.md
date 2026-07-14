@@ -14,8 +14,8 @@
 
 ## 📖 在线文档入口
 
-- 阶段一在线文档：[MotrixLab 线上实习第一月](https://tcnmf6tdu5z9.feishu.cn/wiki/AGfRws912i0N5EkshfxcL5sNnZc?from=from_copylink)
-- 阶段二在线文档：[MotrixLab 线上实习第二月](https://tcnmf6tdu5z9.feishu.cn/wiki/BlyewaSVmiZRThkHBVocspzCnAf?from=from_copylink)
+- 阶段一在线文档：[MotrixLab 线上实习第一月](https://ucnj8k63v5wn.feishu.cn/docx/H6FFdNmQ9owMhaxpRPrcbaQ7ncc)
+- 阶段二在线文档：[MotrixLab 线上实习第二月](https://ucnj8k63v5wn.feishu.cn/docx/WAofdx2fZoAtkQxWBJHcJA8CnwI)
 
 ## 📚 内容入口
 
