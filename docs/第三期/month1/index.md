@@ -13,7 +13,7 @@
 
 ## 📖 在线阅读
 
-- 飞书在线文档：[MotrixLab 线上实习第一月](https://tcnmf6tdu5z9.feishu.cn/wiki/AGfRws912i0N5EkshfxcL5sNnZc?from=from_copylink)
+- 飞书在线文档：[MotrixLab 线上实习第一月](https://ucnj8k63v5wn.feishu.cn/docx/H6FFdNmQ9owMhaxpRPrcbaQ7ncc)
 
 > [!TIP]
 > 本阶段优秀周报统一归档在 [第三期优秀成果](../优秀成果/index.md#第一月优秀周报)。
