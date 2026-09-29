@@ -1,0 +1,1 @@
+"""MotrixLab teaching project package."""
