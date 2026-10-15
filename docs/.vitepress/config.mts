@@ -90,7 +90,15 @@ export default defineConfig({
         text: '课程资料',
         collapsed: false,
         items: [
-          { text: '强化学习与MotrixLab入门（第五期）', link: '/强化学习与MotrixLab入门/' },
+          {
+            text: '强化学习与MotrixLab入门（第五期）',
+            collapsed: false,
+            items: [
+              { text: '课程目录', link: '/强化学习与MotrixLab入门/' },
+              { text: '强化学习基础课程', link: '/强化学习与MotrixLab入门/强化学习基础课程' },
+              { text: 'MotrixLab入门精品课程', link: '/强化学习与MotrixLab入门/MotrixLab入门精品课程' }
+            ]
+          },
           { text: '第四期', link: '/第四期/' }
         ]
       },
