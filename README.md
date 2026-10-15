@@ -48,7 +48,8 @@
   - 第二期（已结营）：[学习路径总览](./docs/第二期/index.md)
   - 第三期（已结营）：[学习路径总览](./docs/第三期/index.md)
     - 第三期优秀成果：[查看归档](./docs/第三期/优秀成果/index.md)
-  - 第四期：[第四期（强化学习与MotrixLab入门）](./docs/强化学习与MotrixLab入门/index.md)
+  - 第四期：[课程资料](./docs/第四期/index.md)
+  - 第五期（最新）：[强化学习与MotrixLab入门](./docs/强化学习与MotrixLab入门/index.md)
   - 结营作业：
     - 第一期结营作业：[项目实践入口](./docs/第一期/结营作业/index.md)
     - 第二期结营作业：暂无归档
@@ -63,7 +64,8 @@
 
 ## 课程资料
 
-- [第四期（强化学习与MotrixLab入门）](./docs/强化学习与MotrixLab入门/index.md)：整理强化学习基础课程与 MotrixLab 入门精品课程，覆盖平台架构、训练环境、奖励函数、配置/注册系统、训练流程和 Demo 分析方法。
+- [强化学习与MotrixLab入门（第五期）](./docs/强化学习与MotrixLab入门/index.md)：按照 10-15 更新稿整理四个强化学习基础模块、12 讲 MotrixLab 精品课和逐讲作业交付。
+- [第四期](./docs/第四期/index.md)：整理强化学习基础课程与 MotrixLab 入门精品课程，覆盖平台架构、训练环境、奖励函数、配置/注册系统、训练流程和 Demo 分析方法。
 
 ## 适合谁
 

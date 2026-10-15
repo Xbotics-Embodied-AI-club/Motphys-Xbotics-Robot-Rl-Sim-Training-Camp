@@ -10,8 +10,8 @@ hero:
     alt: Xbotics logo style banner
   actions:
     - theme: brand
-      text: 查看第一期
-      link: /第一期/
+      text: 强化学习与MotrixLab入门
+      link: /强化学习与MotrixLab入门/
     - theme: alt
       text: 查看项目实践
       link: /第一期/结营作业/
@@ -60,9 +60,14 @@ features:
     <div class="home-card__text">查看第三期的阶段安排与当前学习结构。</div>
   </a>
 
-  <a class="home-card" href="/强化学习与MotrixLab入门/">
+  <a class="home-card" href="./强化学习与MotrixLab入门/">
+    <div class="home-card__eyebrow">第五期 · 最新课程</div>
+    <div class="home-card__title">强化学习与MotrixLab入门</div>
+    <div class="home-card__text">基础课程、12 讲精品课及逐讲作业与交付要求。</div>
+  </a>
+  <a class="home-card" href="./第四期/">
     <div class="home-card__eyebrow">课程资料</div>
-    <div class="home-card__title">第四期（强化学习与MotrixLab入门）</div>
+    <div class="home-card__title">第四期</div>
     <div class="home-card__text">从强化学习基础到 MotrixLab Demo 实战的系统资料。</div>
   </a>
 </div>
@@ -89,8 +94,8 @@ features:
 
 ## 你可以从这里开始
 
-- 先按期进入对应学习路径：[第一期](/第一期/)、[第二期](/第二期/)、[第三期](/第三期/)
-- 如需补齐前置知识，可阅读 [第四期（强化学习与MotrixLab入门）](/强化学习与MotrixLab入门/)
+- 阅读最新课程：[强化学习与MotrixLab入门（第五期）](/强化学习与MotrixLab入门/)
+- 历史学习路径：[第一期](/第一期/)、[第二期](/第二期/)、[第三期](/第三期/)；[第四期课程资料](/第四期/) 保留供参考
 - 再阅读对应期次的 [阶段一：理论基础](/第一期/month1/) 和 [阶段二：平台实战](/第一期/month2/)
 - 如需查看已归档成果，可进入 [第一期项目实践](/第一期/结营作业/) 或 [第三期结营作业](/第三期/结营作业/)
 

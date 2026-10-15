@@ -2,82 +2,88 @@
 pageClass: course-materials-page
 ---
 
-# 第四期（强化学习与MotrixLab入门）
+# 强化学习与 MotrixLab 入门（第五期）
 
-> [!TIP]
-> 本页整理强化学习基础与 MotrixLab 入门精品课程，适合作为训练营前置学习、平台实战预习和作业提交参考。
+> [!IMPORTANT]
+> 本页是第五期**独立新版**，以根目录《强化学习与motrixlab 入门 10-15更新.md》为依据；第四期页面及其八周安排、每日一题和旧版作业均不适用于本页，也不在此修改。配图取自同名 PDF，包括 PPT 页面和课程视频画面的**静态截图**；截图中的播放按钮不可点击。下面未给出在线地址的 `.mp4` 仅是原稿中的视频文件名，不是下载或播放链接。
 
-## 课程定位
+## 课程目录
 
-- **学习目标**：先建立强化学习基本概念，再理解 MotrixLab 的平台架构、配置系统、注册系统、训练流程和 Demo 分析方法。
-- **适合人群**：准备进入机器人强化学习实战、希望系统理解 MotrixLab 工作流的学习者。
-- **交付形式**：每节课建议形成学习文档，包含概念理解、实验记录、代码分析、视频或截图等成果。
-- **视频合集**：[强化学习与 MotrixLab 入门课程](https://www.bilibili.com/video/BV1t9Vm6UEVX)
-- **每日练习**：[第四期每日一题（8 周 56 题）](./每日一题.md)
+### 强化学习基础课程
 
-## 培养路径
+| 模块 | 学习重点 | 课程资料 |
+| :--- | :--- | :--- |
+| [强化学习入门](#rl-intro) | 基本概念与马尔可夫模型 | <a href="../ppt/01-强化学习入门-基本概念与马尔可夫模型.pptx" download>PPT：01-强化学习入门-基本概念与马尔可夫模型.pptx</a>；[B 站视频](https://www.bilibili.com/video/BV1WqUqBYEAW/) |
+| [贝尔曼方程](#bellman-equation) | 贝尔曼方程 | <a href="../ppt/02-Bellman-Equation.pptx" download>PPT：02-Bellman-Equation.pptx</a>；[B 站视频](https://www.bilibili.com/video/BV1XQm4BEEdn/) |
+| [强化学习核心求解方法](#rl-methods) | 策略迭代、值迭代、蒙特卡洛方法 | <a href="../ppt/03-强化学习核心求解方法.pptx" download>PPT：03-强化学习核心求解方法.pptx</a> |
+| [时序差分算法入门](#td-intro) | 时序差分算法 | <a href="../ppt/04-时序差分算法.pptx" download>PPT：04-时序差分算法.pptx</a> |
 
-| 周次 | 课程安排 | 目标产出 |
+### MotrixLab 入门精品课程
+
+| 课次 | 主题 | 主要任务 / 交付 |
 | :---: | :--- | :--- |
-| 第一周 | 课程导论：MotrixLab 能做什么<br>基础框架总览：分层架构怎么看<br>训练环境：`EnvCfg`、`Env`、`Reward` 的关系<br>奖励函数：为什么奖励决定训练成败 | 建立 MotrixLab 平台整体认知，理解训练环境与奖励函数的基础关系 |
-| 第二周 | 配置系统：环境配置与训练配置怎么协作<br>注册系统：新环境如何接入框架<br>训练流程：从 `train.py` 到模型保存 | 梳理配置、注册和训练执行链路，理解新任务接入框架的关键步骤 |
-| 第三周 | Demo 分析方法：如何读懂一个案例 | 掌握从任务目标、观测、动作、奖励、终止条件等要素分析 Demo 的方法 |
-| 第四周 | 基础控制 Demo 讲解：倒立摆 / 单摆 / 双连杆 | 跑通基础控制 Demo，对比经典任务的状态空间、动作空间和奖励设计 |
-| 第五周 | 机械臂与抓取 Demo 讲解 | 理解机械臂抓取任务的奖励设计、接触控制和动作学习特点 |
-| 第六周 | 运动机器人 Demo 讲解：Walker / GO1 / Humanoid | 理解不同机器人构型下的运动控制任务、奖励设计和训练难点 |
-| 第七周 | 总结：如何自己改 Demo、调奖励、做新任务 | 形成修改 Demo、调整奖励、开发新任务的完整实践思路 |
-| 第八周 | 完成结营作业：实现机器狗穿越 MotrixArena S1 赛季越障导航的 Section 1 部分 | 提交结营作业成果，沉淀代码、实验记录、结果分析与展示材料 |
+| [1](#lesson-1) | 课程导论：MotrixLab 能做什么 | 定位、平台价值及个人目标的学习文档 |
+| [2](#lesson-2) | 基础框架总览：分层架构怎么看 | 四层架构图及分析文档 |
+| [3](#lesson-3) | 训练环境：`EnvCfg`、`Env`、`Reward` 的关系 | 类职责、CartPole 配置及分离设计文档 |
+| [4](#lesson-4) | 奖励函数：为什么奖励决定训练成败 | 奖励原则、稀疏/稠密对比与设计文档 |
+| [5](#lesson-5) | 配置系统：环境配置与训练配置怎么协作 | 阅读 `Environment` / `EnvCfg` 源码并画数据流关系图 |
+| [6](#lesson-6) | 注册系统：新环境如何接入框架 | 从源码解释 Registry 与新环境注册时机 |
+| [7](#lesson-7) | 训练流程：从 `train.py` 到模型保存 | 源码执行顺序、模块调用与训练流程图 |
+| [8](#lesson-8) | Demo 分析方法：如何读懂一个案例 | CartPole 八要素与代码分析文档 |
+| [9](#lesson-9) | 基础控制 Demo：倒立摆 / 单摆 / 双连杆 | 三任务视频、单摆奖励对比视频及分析文档 |
+| [10](#lesson-10) | 机械臂与抓取 Demo | 抓取对比视频及打开抽屉任务分析文档 |
+| [11](#lesson-11) | 运动机器人 Demo：Walker / GO1 / Humanoid | 三任务 baseline 视频与参数理解文档 |
+| [12](#lesson-12) | 总结：改 Demo、调奖励、做新任务 | 新 GO1 步态视频与奖励修改记录文档 |
 
 ## 强化学习基础课程
 
-| 模块 | 学习重点 | 资料 |
-| :--- | :--- | :--- |
-| 强化学习入门 | 基本概念与马尔可夫模型 | PPT：[01-强化学习入门-基本概念与马尔可夫模型.pptx](../../ppt/01-强化学习入门-基本概念与马尔可夫模型.pptx)<br>视频：[B 站视频](https://www.bilibili.com/video/BV1WqUqBYEAW/) |
-| 贝尔曼方程 | 价值函数、状态转移与 Bellman Equation | PPT：[02-Bellman-Equation.pptx](../../ppt/02-Bellman-Equation.pptx)<br>视频：[B 站视频](https://www.bilibili.com/video/BV1XQm4BEEdn/) |
-| 强化学习核心求解方法 | 策略迭代、值迭代、蒙特卡洛方法 | [03-强化学习核心求解方法.pptx](../../ppt/03-强化学习核心求解方法.pptx) |
-| 时序差分算法入门 | TD 学习、Bootstrapping 与采样更新 | [04-时序差分算法.pptx](../../ppt/04-时序差分算法.pptx) |
+### 强化学习入门 {#rl-intro}
+
+<img src="./images/rl-intro-slide.png" alt="强化学习入门 PPT 封面：基本概念与马尔可夫模型" width="640" loading="lazy">
+
+**学习重点**：基本概念与马尔可夫模型。
+
+**课程资料**
+
+- PPT：<a href="../ppt/01-强化学习入门-基本概念与马尔可夫模型.pptx" download>01-强化学习入门-基本概念与马尔可夫模型.pptx</a>
+- B 站视频：[强化学习入门](https://www.bilibili.com/video/BV1WqUqBYEAW/)
+
+### 贝尔曼方程 {#bellman-equation}
+
+<img src="./images/bellman-equation-slide.png" alt="贝尔曼方程 PPT 标题页" width="640" loading="lazy">
+
+**学习重点**：贝尔曼方程。
+
+**课程资料**
+
+- PPT：<a href="../ppt/02-Bellman-Equation.pptx" download>02-Bellman-Equation.pptx</a>
+- B 站视频：[贝尔曼方程](https://www.bilibili.com/video/BV1XQm4BEEdn/)
+
+### 强化学习核心求解方法 {#rl-methods}
+
+<img src="./images/rl-methods-slide.png" alt="强化学习核心求解方法 PPT 封面：策略迭代、值迭代、蒙特卡洛方法" width="640" loading="lazy">
+
+**学习重点**：策略迭代、值迭代、蒙特卡洛方法。
+
+**课程资料**
+
+- PPT：<a href="../ppt/03-强化学习核心求解方法.pptx" download>03-强化学习核心求解方法.pptx</a>
+
+### 时序差分算法入门 {#td-intro}
+
+**学习重点**：时序差分算法。
+
+**课程资料**
+
+- PPT：<a href="../ppt/04-时序差分算法.pptx" download>04-时序差分算法.pptx</a>
+
+> PDF 中没有对应时序差分模块的配图；原稿未为这四个基础模块单独列出作业或交付要求，也未为后两个模块提供视频地址。
 
 ## MotrixLab 入门精品课程
 
-| 课次 | 主题 | 核心产出 |
-| :---: | :--- | :--- |
-| 1 | 课程导论：MotrixLab 能做什么 | 说明 MotrixLab 的定位、平台价值与个人学习目标 |
-| 2 | 基础框架总览：分层架构怎么看 | 画出四层架构，并解释各层职责 |
-| 3 | 训练环境：`EnvCfg`、`Env`、`Reward` 的关系 | 理解环境配置、任务逻辑和奖励驱动之间的关系 |
-| 4 | 奖励函数：为什么奖励决定训练成败 | 对比稀疏/稠密奖励，并设计一个奖励函数框架 |
-| 5 | 配置系统：环境配置与训练配置怎么协作 | 理解 `EnvCfg` 与 `RLCfg` 的解耦和协作 |
-| 6 | 注册系统：新环境如何接入框架 | 写出新环境注册、实现与 import 链修改思路 |
-| 7 | 训练流程：从 `train.py` 到模型保存 | 梳理 CLI 到 Trainer 执行的完整训练流程 |
-| 8 | Demo 分析方法：如何读懂一个案例 | 用强化学习 8 个要素分析 CartPole |
-| 9 | 基础控制 Demo 讲解：倒立摆 / 单摆 / 双连杆 | 跑通基础控制 Demo，并比较任务要素 |
-| 10 | 机械臂与抓取 Demo 讲解 | 修改 Franka 抓取奖励，并分析抓取类任务 |
-| 11 | 运动机器人 Demo 讲解：Walker / GO1 / Humanoid | 跑通运动机器人 baseline，理解奖励与动作表现 |
-| 12 | 总结：如何自己改 Demo、调奖励、做新任务 | 完成一个新 GO1 步态训练与记录 |
+### 第 1 讲：课程导论：MotrixLab 能做什么 {#lesson-1}
 
-## 线上视频教案
-
-以下教案已整理为本地 Markdown，用于配合线上视频学习和讲授。
-
-| 课次 | 教案 |
-| :---: | :--- |
-| 1 | [课程导论：MotrixLab 能做什么](./线上视频教案/01-课程导论-MotrixLab能做什么.md) |
-| 2 | [基础框架总览：分层架构怎么看](./线上视频教案/02-基础框架总览-分层架构怎么看.md) |
-| 3 | [训练环境：EnvCfg、Env、Reward 的关系](./线上视频教案/03-训练环境-EnvCfg-Env-Reward的关系.md) |
-| 4 | [奖励函数：为什么奖励决定训练成败](./线上视频教案/04-奖励函数-为什么奖励决定训练成败.md) |
-| 5 | [配置系统：环境配置与训练配置怎么协作](./线上视频教案/05-配置系统-环境配置与训练配置怎么协作.md) |
-| 6 | [注册系统：新环境如何接入框架](./线上视频教案/06-注册系统-新环境如何接入框架.md) |
-| 7 | [训练流程：从 train.py 到模型保存](./线上视频教案/07-训练流程-从train.py到模型保存.md) |
-| 8 | [Demo 分析方法：如何读懂一个案例](./线上视频教案/08-Demo分析方法-如何读懂一个案例.md) |
-| 9 | [基础控制 Demo 讲解：倒立摆 / 单摆 / 双连杆](./线上视频教案/09-基础控制Demo讲解-倒立摆单摆双连杆.md) |
-| 10 | [机械臂与抓取 Demo 讲解](./线上视频教案/10-机械臂与抓取Demo讲解.md) |
-| 11 | [运动机器人 Demo 讲解：Walker / GO1 / Humanoid](./线上视频教案/11-运动机器人Demo讲解-Walker-GO1-Humanoid.md) |
-| 12 | [总结：如何自己改 Demo、调奖励、做新任务](./线上视频教案/12-总结-如何自己改Demo调奖励做新任务.md) |
-
----
-
-## 第 1 讲：课程导论
-
-**主题**：MotrixLab 能做什么
+<img src="./images/lesson-01-framework-cover.png" alt="MotrixLab 框架介绍 PPT 封面：机器人强化学习工程框架" width="640" loading="lazy">
 
 **学习重点**
 
@@ -87,23 +93,23 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[MotrixLab 入门课程（1）—— 课程导论：MotrixLab 能做什么](./线上视频教案/01-课程导论-MotrixLab能做什么.md)
-- 课程 PPT：[05-MotrixLab-框架介绍.pptx](../../ppt/05-MotrixLab-框架介绍.pptx)
-- 学习视频：[MotrixLab 入门课程 第 1 讲——框架介绍](https://www.bilibili.com/video/BV1t9Vm6UEVX)
+- 课程教案：[MotrixLab入门课程（1）—— 课程导论：MotrixLab 能做什么](https://ucnj8k63v5wn.feishu.cn/docx/SpkXdeFWAoGgj0xGLU1c6cQxngf)
+- 课程 PPT：<a href="../ppt/05-MotrixLab-框架介绍.pptx" download>05-MotrixLab-框架介绍.pptx</a>
+- 学习视频文件名：`第1讲.mp4`（原稿未提供在线地址）
 
 **课程作业**
 
 1. 结合课程内容，用自己的话解释 MotrixLab 的定位：它是一个什么样的平台？主要解决什么问题？
-2. 说明机器人强化学习平台相比从零写训练代码的核心价值，至少列出 3 点。
-3. 结合课程学习路径图，简要规划自己的学习目标和预期产出。
+2. 说说机器人强化学习平台相比于从零写训练代码有哪些核心价值（至少列出 3 点）。
+3. 看完课程学习路径图后，简要规划一下自己的学习目标和预期产出。
 
-**交付要求**：形成一份学习文档，包含以上问题的回答和本节课程总结。
+**交付要求**：形成一份学习文档，包含上述问题的回答和本节课程总结。
 
 ---
 
-## 第 2 讲：基础框架总览
+### 第 2 讲：基础框架总览：分层架构怎么看 {#lesson-2}
 
-**主题**：分层架构怎么看
+<img src="./images/lesson-02-layered-architecture.png" alt="MotrixLab 四层架构图：用户接口层、训练算法层、环境实现层、物理仿真层" width="640" loading="lazy">
 
 **学习重点**
 
@@ -113,23 +119,23 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[MotrixLab 入门课程（2）—— 基础框架总览：分层架构怎么看](./线上视频教案/02-基础框架总览-分层架构怎么看.md)
-- 课程 PPT：[06-MotrixLab-分层结构.pptx](../../ppt/06-MotrixLab-分层结构.pptx)
-- 学习视频：[MotrixLab 入门课程 第 2 讲——分层结构](https://www.bilibili.com/video/BV1T9Vm6UEiw)
+- 课程教案：[MotrixLab入门课程（2）—— 基础框架总览：分层架构怎么看](https://tcnmf6tdu5z9.feishu.cn/wiki/TFuMwcII0i1UT1kCqOWcleeVn4c?from=from_copylink)
+- 课程 PPT：<a href="../ppt/06-MotrixLab-分层结构.pptx" download>06-MotrixLab-分层结构.pptx</a>
+- 学习视频文件名：`第2讲.mp4`（原稿未提供在线地址）
 
 **课程作业**
 
-1. 画出 MotrixLab 的四层分层架构示意图，并用文字描述每一层的职责。
-2. 思考为什么要把架构分成多层，说明分层设计的至少 2 个好处。
-3. 选择一个熟悉的机器人任务，分析它在架构各层中如何被支持。
+1. 画出 MotrixLab 的四层分层架构示意图（用户接口层、训练算法层、环境实现层、物理仿真层），并用文字描述每一层的职责。
+2. 思考为什么要把架构分成这么多层：直接把环境、算法、仿真写在一起不行吗？说出分层设计的至少 2 个好处。
+3. 选一个熟悉的机器人任务（如倒立摆、机械臂抓取、四足行走），分析它应该落在架构的哪一层，各层分别如何为其服务。
 
-**交付要求**：形成一份学习文档，包含架构图、各层说明、分层好处分析和本节课程总结。
+**交付要求**：形成一份学习文档，包含架构图（可手绘拍照或用工具画）、各层说明、分层好处分析和本节课程总结。
 
 ---
 
-## 第 3 讲：训练环境
+### 第 3 讲：训练环境：`EnvCfg`、`Env`、`Reward` 的关系 {#lesson-3}
 
-**主题**：`EnvCfg`、`Env`、`Reward` 的关系
+<img src="./images/lesson-03-training-environment.jpg" alt="第 3 讲训练环境课程目标的视频画面截图：EnvCfg、Env、Reward 的职责" width="640" loading="lazy">
 
 **学习重点**
 
@@ -140,48 +146,48 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[MotrixLab 入门课程（3）—— 训练环境：EnvCfg、Env、Reward 的关系](./线上视频教案/03-训练环境-EnvCfg-Env-Reward的关系.md)
-- 学习视频：[MotrixLab 入门课程 第 3 讲——训练环境](https://www.bilibili.com/video/BV1NfVm6LE82)
+- 课程教案：[MotrixLab入门课程（3）—— 训练环境：EnvCfg、Env、Reward 的关系](https://ucnj8k63v5wn.feishu.cn/docx/EqkzdvVXloTM99x2g7GcntBMnBe)
+- 学习视频文件名：`第3讲.mp4`（原稿未提供在线地址）
 
 **课程作业**
 
-1. 分别说明 `EnvCfg`、`Env`、`Reward` 三个类在 MotrixLab 中的角色，并用一句话概括每个类的核心职责。
-2. 以 CartPole 为例，尝试写出 `EnvCfg` 中至少需要定义哪些参数，例如观测维度、动作维度等。
-3. 思考为什么要把环境配置和环境实现分开设计。
+1. 分别说明 `EnvCfg`、`Env`、`Reward` 三个类在 MotrixLab 中各扮演什么角色，用一句话概括每个类的核心职责。
+2. 以 CartPole 为例，尝试写出 `EnvCfg` 中至少需要定义哪些参数（如观测维度、动作维度等）。
+3. 思考为什么要把环境配置（`EnvCfg`）和环境实现（`Env`）分开设计，不写在一起有什么好处。
 
 **交付要求**：形成一份学习文档，包含三个类的角色说明、CartPole 配置参数示例、对“分离设计”的理解和本节课程总结。
 
 ---
 
-## 第 4 讲：奖励函数
+### 第 4 讲：奖励函数：为什么奖励决定训练成败 {#lesson-4}
 
-**主题**：为什么奖励决定训练成败
+<img src="./images/lesson-04-reward-example.jpg" alt="第 4 讲视频画面截图：Reward 的输入、输出与示例代码" width="640" loading="lazy">
 
 **学习重点**
 
 - 奖励函数在强化学习中的作用
 - 奖励设计的基本原则
 - 常见奖励结构与设计思路
-- 奖励不合理会带来的问题
+- 奖励不合理会带来什么问题
 
 **课程资料**
 
-- 课程教案：[MotrixLab 入门课程（4）—— 奖励函数：为什么奖励决定训练成败](./线上视频教案/04-奖励函数-为什么奖励决定训练成败.md)
-- 学习视频：[MotrixLab 入门课程 第 4 讲——奖励函数](https://www.bilibili.com/video/BV1NfVm6LE3m)
+- 课程教案：[MotrixLab入门课程（4）—— 奖励函数：为什么奖励决定训练成败](https://ucnj8k63v5wn.feishu.cn/docx/TRqRdemjtoCEWKxU9gHcC73jndh)
+- 学习视频文件名：`第4讲.mp4`（原稿未提供在线地址）
 
 **课程作业**
 
-1. 列举奖励函数的 3 个常见设计原则，并说明每条原则为什么重要。
-2. 对比“奖励稀疏”和“奖励稠密”。如果倒立摆任务只在倒下时给 `-1`、不倒时给 `0`，训练会有什么问题？
-3. 为一个简单任务设计奖励函数框架，例如让机器人走到目标点。
+1. 列举奖励函数的 3 个常见设计原则，并用自己的话解释每条原则为什么重要。
+2. 思考“奖励稀疏”和“奖励稠密”的区别。如果倒立摆任务的奖励只是在倒下时给 `-1`、不倒时给 `0`，训练会有什么问题？
+3. 为一个简单任务（如让机器人走到目标点）设计奖励函数框架（可用伪代码或文字描述）。
 
-**交付要求**：形成一份学习文档，包含奖励设计原则、稀疏/稠密奖励对比、奖励函数框架和本节课程总结。
+**交付要求**：形成一份学习文档，包含奖励设计原则的说明、稀疏/稠密奖励对比分析、设计的奖励函数框架和本节课程总结。
 
 ---
 
-## 第 5 讲：配置系统
+### 第 5 讲：配置系统：环境配置与训练配置怎么协作（30min） {#lesson-5}
 
-**主题**：环境配置与训练配置怎么协作
+<img src="./images/lesson-05-configuration.jpg" alt="第 5 讲视频画面截图：环境参数与训练参数的配置目录" width="640" loading="lazy">
 
 **学习重点**
 
@@ -191,21 +197,24 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[配置系统：环境配置与训练配置怎么协作](./线上视频教案/05-配置系统-环境配置与训练配置怎么协作.md)
-- 学习视频：[MotrixLab 入门课程 第 5 讲——配置系统](https://www.bilibili.com/video/BV1xfVm6LEVa)
+- 课程教案：[第5课 配置系统：环境配置与训练配置如何协作](https://ucnj8k63v5wn.feishu.cn/docx/KWb4dycPQo5eoZxkgVrcFdutn1c)
+- 学习视频文件名：`Lesson5.mp4`（原稿未提供在线地址）
 
 **课程作业**
 
-1. 阐明 `EnvCfg` 与 `RLCfg` 在 MotrixLab 框架中的职责分工，理解它们之间为什么是“解耦”的。
-2. 思考为什么课程中强调“用配置类默认值 + 注册机制”来管理实验，而不是直接在训练脚本里写死参数。
+结合本节课阅读一个机器人任务对应的 `Environment` 和 `EnvCfg` 源码，回答：
 
-**交付要求**：形成一份学习文档，包含以上问题的回答和本节课程总结。
+1. `Environment` 在整个强化学习训练流程中的职责是什么？
+2. `EnvCfg` 为什么需要独立于 `Environment` 存在？
+3. 任选一个机器人任务，画出该任务 `Environment` 与 `EnvCfg` 的关系图，至少包括 `Environment`、`EnvCfg`、`Observation`、`Reward`、`Reset`、`Step`，并说明各部分之间的数据流。
+
+**交付要求**：形成一份学习文档，包含上述问题的回答和本节课程总结。
 
 ---
 
-## 第 6 讲：注册系统
+### 第 6 讲：注册系统：新环境如何接入框架 {#lesson-6}
 
-**主题**：新环境如何接入框架
+<img src="./images/lesson-06-registry.jpg" alt="第 6 讲视频画面截图：新环境注册课程目标与任务组成" width="640" loading="lazy">
 
 **学习重点**
 
@@ -215,25 +224,21 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[注册系统：新环境如何接入框架](./线上视频教案/06-注册系统-新环境如何接入框架.md)
-- 学习视频：[MotrixLab 入门课程 第 6 讲——注册系统](https://www.bilibili.com/video/BV1NfVm6LEv7)
+- 课程教案：[第6课 注册系统：新环境如何接入框架](https://my.feishu.cn/docx/FcEhd1q5KoYouwxJW9YcQS3Fn9d)
+- 学习视频文件名：`Lesson6.mp4`（原稿未提供在线地址）
 
 **课程作业**
 
-1. 阐明 MotrixLab 中两套注册表 `motrix_envs.registry` 和 `motrix_rl.registry` 的分工与协作关系。
-2. 结合代码检查逻辑说明：如果没有先注册 `@registry.envcfg`，就注册 `@registry.env`，会发生什么？
-3. 假设要让一个名为 `simple_walker` 的新环境接入 MotrixLab 框架，该环境是一个 2D 双足机器人行走任务，使用 `"np"` 后端，训练算法为 PPO，后端为 `"torch"`。请写出：
-   - `cfg.py` 的核心代码框架，包含装饰器、类定义、至少 3 个任务特有字段。
-   - `simple_walker_np.py` 的类定义头部和装饰器，并列出必须实现的三个抽象方法名称。
-   - import 链修改，说明需要修改哪些 `__init__.py` 文件，才能让框架自动识别 `simple_walker`。
+1. 结合源码说明 Registry 在整个 MotrixLab 中承担什么职责：Registry 保存了哪些信息？为什么不直接创建 `Environment`？
+2. 结合源码说明一个新的 `Environment` 如何完成注册：Python 导入模块时发生了什么？装饰器在什么时候执行？Registry 在什么时候保存 `Environment` 与 `EnvCfg`？
 
-**交付要求**：形成一份学习文档，包含以上问题的回答、代码框架和本节课程总结。
+**交付要求**：形成一份学习文档，包含上述问题的回答和本节课程总结。
 
 ---
 
-## 第 7 讲：训练流程
+### 第 7 讲：训练流程：从 `train.py` 到模型保存 {#lesson-7}
 
-**主题**：从 `train.py` 到模型保存
+<img src="./images/lesson-07-training-workflow.jpg" alt="第 7 讲视频画面截图：训练启动、环境创建和模型保存的课程目录" width="640" loading="lazy">
 
 **学习重点**
 
@@ -243,21 +248,22 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[训练流程：从 train.py 到模型保存](./线上视频教案/07-训练流程-从train.py到模型保存.md)
-- 学习视频：[MotrixLab 入门课程 第 7 讲——训练流程](https://www.bilibili.com/video/BV1xfVm6LETE)
+- 课程教案：[第7课 训练流程：从 train.py 到模型保存](https://my.feishu.cn/docx/TE06dQwwOoFvC8xly7kcMxs5nUf)
+- 学习视频文件名：`Lesson7.mp4`（原稿未提供在线地址）
 
 **课程作业**
 
-1. 假设运行命令 `uv run scripts/train.py --env cartpole`，绘制从 `train.py` 执行到 `trainer.train()` 的简化流程图，至少包含 CLI 解析、RL 配置加载、环境创建、SKRL 包装、Agent 构建、Trainer 执行。
-2. 使用默认配置训练 CartPole，并分析训练结果。写出完整训练命令，训练完成后启动 TensorBoard 并分析曲线。
+1. 结合源码说明，从执行 `python scripts/train.py` 开始，到训练正式启动之前，程序主要经历哪些步骤？按实际执行顺序描述整个 Workflow。
+2. 说明训练过程中 `Environment`、`EnvCfg` 和 `RLCfg` 分别在哪个阶段参与工作：三者分别在哪里创建、负责哪些内容、最终在哪里汇合形成完整训练流程？
+3. 用简要文字说明 `train.py`、`Trainer`、`Registry`、`make()`、`Environment`、`EnvCfg`、`PPO Config`、`Agent`、`SequentialTrainer`、`Train` 之间的数据流和调用关系。
 
-**交付要求**：形成一份学习文档，包含训练流程图、训练命令和结果分析。
+**交付要求**：形成一份学习文档，并绘制训练流程图。
 
 ---
 
-## 第 8 讲：Demo 分析方法
+### 第 8 讲：Demo 分析方法：如何读懂一个案例 {#lesson-8}
 
-**主题**：如何读懂一个案例
+<img src="./images/lesson-08-demo-analysis.jpg" alt="第 8 讲视频画面截图：Demo 分析步骤和任务类型示例" width="640" loading="lazy">
 
 **学习重点**
 
@@ -267,22 +273,24 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[Demo 分析方法：如何读懂一个案例](./线上视频教案/08-Demo分析方法-如何读懂一个案例.md)
-- 学习视频：[MotrixLab 入门课程 第 8 讲——Demo 分析方法](https://www.bilibili.com/video/BV1fGVU6vEA3)
-- 参考文档：[CartPole 官方 Demo](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/demo/cartpole.html)
+- 课程教案：[Demo分析方法：如何读懂一个案例](https://ucnj8k63v5wn.feishu.cn/docx/CmpSdCycbo4Sl4x19Yfcadxdnnh)
+- 学习视频文件名：`8. demo分析方法.mp4`（原稿未提供在线地址）
+- 参考文档：[MotrixLab 官方 CartPole Demo](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/demo/cartpole.html)
 
 **课程作业**
 
-1. 整理本节课内容，重点理解强化学习通用流程和 8 个要素，研究 MotrixLab 的对应实现方法。
-2. 结合官方文档，独立完成对 CartPole 任务环境的 8 个强化学习要素分析和对应 MotrixLab 实现的代码分析。
+1. 整理本节课的学习内容，重点理解强化学习的通用流程和 8 个要素，研究 MotrixLab 的对应实现方法。
+2. 结合 MotrixLab 官方文档，独立完成倒立摆 CartPole 任务环境的 8 个强化学习要素分析和对应的 MotrixLab 实现代码分析；可以在后续课程中验证。
 
-**交付要求**：形成一份学习体会、CartPole 要素分析和代码分析文档。
+**交付要求**：整理一份学习体会以及 CartPole 任务的要素分析和代码分析文档，清楚描述各部分内容。
 
 ---
 
-## 第 9 讲：基础控制 Demo
+### 第 9 讲：基础控制 Demo：倒立摆 / 单摆 / 双连杆 {#lesson-9}
 
-**主题**：倒立摆 / 单摆 / 双连杆
+<img src="./images/lesson-09-control-tasks.jpg" alt="第 9 讲课程页面截图：倒立摆、单摆、双连杆三个基础控制任务" width="640" loading="lazy">
+
+<img src="./images/lesson-09-pendulum-preview.jpg" alt="单摆仿真画面预览截图：画面中的播放按钮不是本站视频播放器" width="640" loading="lazy">
 
 **学习重点**
 
@@ -292,27 +300,27 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[基础控制 Demo 讲解：倒立摆 / 单摆 / 双连杆](./线上视频教案/09-基础控制Demo讲解-倒立摆单摆双连杆.md)
-- 学习视频：[9.1 基础控制 Demo 讲解](https://www.bilibili.com/video/BV1hKVm6DE5q?p=1)、[9.2 基础控制 Demo 讲解](https://www.bilibili.com/video/BV1hKVm6DE5q?p=2)
+- 课程教案：[基础控制Demo讲解：倒立摆 / 单摆 / 双连杆](https://ucnj8k63v5wn.feishu.cn/docx/NYOAdtmHFo8e3txNi7IcnBHJnwe)
+- 学习视频文件名：`9.1. 基础控制 Demo 讲解.mp4`、`9.2. 基础控制 Demo 讲解.mp4`（原稿未提供在线地址）
 - 参考文档：[双关节机械臂控制任务](https://motrixlab.readthedocs.io/zh-cn/latest/user_guide/demo/dm_reacher.html)
 
 **课程作业**
 
-1. 跑通三个基础控制 Demo，整理三个任务强化学习 8 个要素的相同点和不同点。
-2. 修改 MotrixLab 源代码中单摆任务奖励函数的能量部分，对比修改前后单摆最后竖直的效果。
-3. 自行探索双关节机械臂控制任务，整理强化学习 8 个要素。
+1. 跑通三个基础控制 Demo，比较三个任务的强化学习 8 个要素的相同点和不同点，并形成文档。
+2. 结合课程内容，修改 MotrixLab 源代码中单摆任务奖励函数的能量部分，对比修改前后单摆最后竖直的效果。
+3. 自行探索 MotrixLab 中的双关节机械臂控制任务，整理其强化学习 8 个要素并形成文档。
 
 **交付要求**
 
-- 三个经典任务跑通视频。
-- 单摆奖励函数修改前后对比视频。
-- 三个 Demo 对比文档和双关节机械臂控制任务分析文档。
+- 跑通 MotrixLab 开源的三个经典任务的视频。
+- 单摆奖励函数修改前后的对比视频。
+- 三个 Demo 对比文档和双关节机械臂控制任务的强化学习要素研究文档。
 
 ---
 
-## 第 10 讲：机械臂与抓取 Demo
+### 第 10 讲：机械臂与抓取 Demo {#lesson-10}
 
-**主题**：机械臂与抓取任务
+<img src="./images/lesson-10-robot-arm.jpg" alt="第 10 讲课程页面截图：Franka 机械臂结构与关节说明" width="640" loading="lazy">
 
 **学习重点**
 
@@ -322,24 +330,26 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[机械臂与抓取 Demo 讲解](./线上视频教案/10-机械臂与抓取Demo讲解.md)
-- 学习视频：[MotrixLab 入门课程 第 10 讲——机械臂与抓取 Demo 讲解](https://www.bilibili.com/video/BV1F2V26vExQ)
+- 课程教案：[机械臂与抓取Demo讲解](https://ucnj8k63v5wn.feishu.cn/docx/WjEtdSC9mo0DOYxxXtVcUugqnFg)
+- 学习视频文件名：`10. 机械臂与抓取 Demo 讲解.mp4`（原稿未提供在线地址）
 
 **课程作业**
 
-1. 结合课程内容，修改 MotrixLab 源代码中 `franka-lift-cube` 任务奖励函数，并尝试增大训练步数，实现更优抓取效果。
-2. 自行研究 Franka 打开抽屉任务，整理强化学习 8 个要素，并和 `franka-lift-cube` 做对比分析。
+1. 结合课程内容，修改 MotrixLab 源代码中 `franka lift cube` 任务的奖励函数，并尝试增大训练步数，实现更优的抓取效果。
+2. 自行研究 Franka 打开抽屉任务，整理强化学习 8 个要素并与 `franka-lift-cube` 对比，分析异同点，形成分析文档。
 
 **交付要求**
 
-- `franka-lift-cube` 奖励函数修改前后对比视频。
+- `franka-lift-cube` 任务奖励函数修改前后的对比视频。
 - `franka-lift-cube` 和打开抽屉任务的强化学习要素对比文档。
 
 ---
 
-## 第 11 讲：运动机器人 Demo
+### 第 11 讲：运动机器人 Demo：Walker / GO1 / Humanoid {#lesson-11}
 
-**主题**：Walker / GO1 / Humanoid
+<img src="./images/lesson-11-walker-preview.jpg" alt="第 11 讲课程页面截图：Walker 仿真画面预览" width="640" loading="lazy">
+
+<img src="./images/lesson-11-go1-reward-code.jpg" alt="第 11 讲视频画面截图：GO1 行走任务奖励函数代码与训练终端" width="640" loading="lazy">
 
 **学习重点**
 
@@ -349,20 +359,18 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[运动机器人 Demo 讲解：Walker / GO1 / Humanoid](./线上视频教案/11-运动机器人Demo讲解-Walker-GO1-Humanoid.md)
-- 学习视频：[第 11 讲 part11 上](https://www.bilibili.com/video/BV1ZQV26cEUS?p=1)、[第 11 讲 part11 下](https://www.bilibili.com/video/BV1ZQV26cEUS?p=2)
+- 课程教案：[运动机器人 Demo 讲解：Walker / GO1 / Humanoid](https://ucnj8k63v5wn.feishu.cn/docx/IwqZdUycAoC55AxkzPzcSiIpnzd)
+- 学习视频文件名：`part11上.mp4`、`part11下.mp4`（原稿未提供在线地址）
 
-**课程作业**
-
-根据课程教案和学习视频，理解不同奖励设计对策略的影响，理解不同机器人构型导致的训练难度差异，逐步建立奖励函数到训练后动作的大致映射感。
+**课程作业**：根据课程教案和学习视频，理解不同奖励设计对策略的影响，理解不同机器人构型造成的训练难度差异，建立奖励函数到训练后动作的大致映射感觉。
 
 **交付要求**：三个任务的 baseline 跑通视频，以及观测空间、奖励函数、训练超参数的理解文档。
 
 ---
 
-## 第 12 讲：总结
+### 第 12 讲：总结：如何自己改 Demo、调奖励、做新任务 {#lesson-12}
 
-**主题**：如何自己改 Demo、调奖励、做新任务
+<img src="./images/lesson-12-go1-task-configuration.jpg" alt="第 12 讲课程页面截图：修改 GO1 奖励和配置以开发新任务的步骤" width="640" loading="lazy">
 
 **学习重点**
 
@@ -373,11 +381,9 @@ pageClass: course-materials-page
 
 **课程资料**
 
-- 课程教案：[总结：如何自己改 Demo、调奖励、做新任务](./线上视频教案/12-总结-如何自己改Demo调奖励做新任务.md)
-- 学习视频：[MotrixLab 入门课程 第 12 讲——总结](https://www.bilibili.com/video/BV1ESV26YEzX)
+- 课程教案：[总结：如何自己改 Demo、调奖励、做新任务](https://ucnj8k63v5wn.feishu.cn/docx/QPshdrVOCocs9px9n6dcRB2OnZf)
+- 学习视频文件名：`part12.mp4`（原稿未提供在线地址）
 
-**课程作业**
+**课程作业**：训练一个新的 GO1 步态，跑通修改 Demo 的全流程。
 
-训练一个新的 GO1 步态，跑通修改 Demo 的完整流程。
-
-**交付要求**：输出训练新步态的视频，以及奖励函数修改记录文档。
+**交付要求**：输出训练新步态的视频，以及奖励函数修改的记录文档。
