@@ -97,6 +97,8 @@ export default defineConfig({
               { text: '课程目录', link: '/强化学习与MotrixLab入门/' },
               { text: '强化学习基础课程', link: '/强化学习与MotrixLab入门/强化学习基础课程' },
               { text: 'MotrixLab入门精品课程', link: '/强化学习与MotrixLab入门/MotrixLab入门精品课程' },
+              { text: '第一周课程内容', link: '/强化学习与MotrixLab入门/第一周' },
+              { text: '第二周课程内容', link: '/强化学习与MotrixLab入门/第二周' },
               { text: '第一周课后作业', link: '/强化学习与MotrixLab入门/课后作业选择题-第一周' },
               { text: '第二周课后作业', link: '/强化学习与MotrixLab入门/课后作业选择题-第二周' },
               { text: '前两周作业完成指标', link: '/强化学习与MotrixLab入门/课程作业完成指标-前两周' }

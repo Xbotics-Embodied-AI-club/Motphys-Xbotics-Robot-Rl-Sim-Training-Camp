@@ -17,7 +17,7 @@
 **课程资料**
 
 - 课程教案：[MotrixLab入门课程（1）—— 课程导论：MotrixLab 能做什么](https://ucnj8k63v5wn.feishu.cn/docx/SpkXdeFWAoGgj0xGLU1c6cQxngf)
-- 课程 PPT：<a href="../ppt/05-MotrixLab-框架介绍.pptx" download>05-MotrixLab-框架介绍.pptx</a>
+- 课程 PPT：<a href="https://raw.githubusercontent.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp/main/ppt/05-MotrixLab-框架介绍.pptx" download>05-MotrixLab-框架介绍.pptx</a>
 - 学习视频文件名：`第1讲.mp4`（原稿未提供在线地址）
 
 **课程作业**
@@ -47,7 +47,7 @@
 **课程资料**
 
 - 课程教案：[MotrixLab入门课程（2）—— 基础框架总览：分层架构怎么看](https://tcnmf6tdu5z9.feishu.cn/wiki/TFuMwcII0i1UT1kCqOWcleeVn4c?from=from_copylink)
-- 课程 PPT：<a href="../ppt/06-MotrixLab-分层结构.pptx" download>06-MotrixLab-分层结构.pptx</a>
+- 课程 PPT：<a href="https://raw.githubusercontent.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp/main/ppt/06-MotrixLab-分层结构.pptx" download>06-MotrixLab-分层结构.pptx</a>
 - 学习视频文件名：`第2讲.mp4`（原稿未提供在线地址）
 
 **课程作业**

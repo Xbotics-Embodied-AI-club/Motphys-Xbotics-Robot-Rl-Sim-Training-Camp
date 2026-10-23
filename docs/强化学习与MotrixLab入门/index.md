@@ -8,10 +8,10 @@ pageClass: course-materials-page
 
 | 模块 | 学习重点 | 课程资料 |
 | :--- | :--- | :--- |
-| [强化学习入门](./强化学习基础课程.md#rl-intro) | 基本概念与马尔可夫模型 | <a href="../ppt/01-强化学习入门-基本概念与马尔可夫模型.pptx" download>PPT：01-强化学习入门-基本概念与马尔可夫模型.pptx</a>；[B 站视频](https://www.bilibili.com/video/BV1WqUqBYEAW/) |
-| [贝尔曼方程](./强化学习基础课程.md#bellman-equation) | 贝尔曼方程 | <a href="../ppt/02-Bellman-Equation.pptx" download>PPT：02-Bellman-Equation.pptx</a>；[B 站视频](https://www.bilibili.com/video/BV1XQm4BEEdn/) |
-| [强化学习核心求解方法](./强化学习基础课程.md#rl-methods) | 策略迭代、值迭代、蒙特卡洛方法 | <a href="../ppt/03-强化学习核心求解方法.pptx" download>PPT：03-强化学习核心求解方法.pptx</a> |
-| [时序差分算法入门](./强化学习基础课程.md#td-intro) | 时序差分算法 | <a href="../ppt/04-时序差分算法.pptx" download>PPT：04-时序差分算法.pptx</a> |
+| [强化学习入门](./强化学习基础课程.md#rl-intro) | 基本概念与马尔可夫模型 | <a href="https://raw.githubusercontent.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp/main/ppt/01-强化学习入门-基本概念与马尔可夫模型.pptx" download>PPT：01-强化学习入门-基本概念与马尔可夫模型.pptx</a>；[B 站视频](https://www.bilibili.com/video/BV1WqUqBYEAW/) |
+| [贝尔曼方程](./强化学习基础课程.md#bellman-equation) | 贝尔曼方程 | <a href="https://raw.githubusercontent.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp/main/ppt/02-Bellman-Equation.pptx" download>PPT：02-Bellman-Equation.pptx</a>；[B 站视频](https://www.bilibili.com/video/BV1XQm4BEEdn/) |
+| [强化学习核心求解方法](./强化学习基础课程.md#rl-methods) | 策略迭代、值迭代、蒙特卡洛方法 | <a href="https://raw.githubusercontent.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp/main/ppt/03-强化学习核心求解方法.pptx" download>PPT：03-强化学习核心求解方法.pptx</a> |
+| [时序差分算法入门](./强化学习基础课程.md#td-intro) | 时序差分算法 | <a href="https://raw.githubusercontent.com/Xbotics-Embodied-AI-club/Motphys-Xbotics-Robot-Rl-Sim-Training-Camp/main/ppt/04-时序差分算法.pptx" download>PPT：04-时序差分算法.pptx</a> |
 
 ## MotrixLab 入门精品课程
 
@@ -29,5 +29,7 @@ pageClass: course-materials-page
 | [10](./MotrixLab入门精品课程.md#lesson-10) | 机械臂与抓取 Demo | 抓取对比视频及打开抽屉任务分析文档 |
 | [11](./MotrixLab入门精品课程.md#lesson-11) | 运动机器人 Demo：Walker / GO1 / Humanoid | 三任务 baseline 视频与参数理解文档 |
 | [12](./MotrixLab入门精品课程.md#lesson-12) | 总结：改 Demo、调奖励、做新任务 | 新 GO1 步态视频与奖励修改记录文档 |
+
+按周阅读：[第一周课程内容与作业（第 1~4 讲）](./第一周.md) · [第二周课程内容与作业（第 5~7 讲）](./第二周.md)。
 
 前两周作业资料：[第一周选择题（第 1~4 讲）](./课后作业选择题-第一周.md) · [第二周选择题（第 5~7 讲，含应用/实操题）](./课后作业选择题-第二周.md) · [前两周作业完成指标](./课程作业完成指标-前两周.md)。
